@@ -19,8 +19,8 @@ graph TD
     E --> F[Rectifier]
     E --> G[Offset Stage<br>Shift to 1.5V]
     G --> H[ADC 1<br>Un-rectified]
-    F --> I[Offset Stage<br>Shift to 1.5V]
-    I --> J[ADC 2<br>Rectified]
+    F --> I[ADC 2<br>Rectified]
+
 ```
 - The EMG signals will be around 500 uV - 1 mV. Will scale the signals with a gain of about 1000 to make the output swing around 0.5 - 1 V
 - The first stage is the instrumentation amplifier. It has a very high impedence input, and large common mode rejection. It also has a gain stage built in, which is chosen as 50
