@@ -1,0 +1,550 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EMG_Circuit:BAT42W-V D1
+U 1 1 5F181D9F
+P 5100 1750
+F 0 "D1" V 5146 1670 50  0000 R CNN
+F 1 "BAT42W-V" V 5055 1670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5100 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 5100 1750 50  0001 C CNN
+	1    5100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EMG_Circuit:BAT42W-V D2
+U 1 1 5F18264E
+P 5750 2050
+F 0 "D2" H 5750 1833 50  0000 C CNN
+F 1 "BAT42W-V" H 5750 1924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5750 1875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 5750 2050 50  0001 C CNN
+	1    5750 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L EMG_Circuit:ADA4807-4 U3
+U 4 1 5F182E72
+P 3800 2050
+F 0 "U3" H 3800 2417 50  0000 C CNN
+F 1 "ADA4807-4" H 3800 2326 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3750 2150 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 3850 2250 50  0001 C CNN
+	4    3800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L EMG_Circuit:ADA4807-4 U4
+U 1 1 5F184382
+P 6800 1950
+F 0 "U4" H 6800 2317 50  0000 C CNN
+F 1 "ADA4807-4" H 6800 2226 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6750 2050 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 6850 2150 50  0001 C CNN
+	1    6800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L EMG_Circuit:ADA4807-4 U4
+U 2 1 5F1852B6
+P 3750 3450
+F 0 "U4" H 3750 3817 50  0000 C CNN
+F 1 "ADA4807-4" H 3750 3726 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3700 3550 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 3800 3650 50  0001 C CNN
+	2    3750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L EMG_Circuit:ADA4807-4 U4
+U 3 1 5F185F5E
+P 6250 3550
+F 0 "U4" H 6250 3917 50  0000 C CNN
+F 1 "ADA4807-4" H 6250 3826 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6200 3650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 6300 3750 50  0001 C CNN
+	3    6250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5F1986BF
+P 4600 1750
+F 0 "C17" H 4715 1796 50  0000 L CNN
+F 1 "47pF" H 4715 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 1600 50  0001 C CNN
+F 3 "~" H 4600 1750 50  0001 C CNN
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5F199E31
+P 5650 1450
+F 0 "R14" V 5443 1450 50  0000 C CNN
+F 1 "1K" V 5534 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5580 1450 50  0001 C CNN
+F 3 "~" H 5650 1450 50  0001 C CNN
+	1    5650 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F19AA6B
+P 6700 1450
+F 0 "R16" V 6493 1450 50  0000 C CNN
+F 1 "1K" V 6584 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 1450 50  0001 C CNN
+F 3 "~" H 6700 1450 50  0001 C CNN
+	1    6700 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F19AFA5
+P 6300 2300
+F 0 "R15" H 6230 2254 50  0000 R CNN
+F 1 "1K" H 6230 2345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 2300 50  0001 C CNN
+F 3 "~" H 6300 2300 50  0001 C CNN
+	1    6300 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR019
+U 1 1 5F19CAB5
+P 6300 2550
+F 0 "#PWR019" H 6300 2300 50  0001 C CNN
+F 1 "Earth" H 6300 2400 50  0001 C CNN
+F 2 "" H 6300 2550 50  0001 C CNN
+F 3 "~" H 6300 2550 50  0001 C CNN
+	1    6300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2050 4600 2050
+Wire Wire Line
+	6300 2150 6300 2050
+Wire Wire Line
+	6300 2050 5900 2050
+Wire Wire Line
+	6300 2050 6500 2050
+Connection ~ 6300 2050
+Wire Wire Line
+	6300 2550 6300 2450
+Wire Wire Line
+	5100 1900 5100 2050
+Connection ~ 5100 2050
+Wire Wire Line
+	5100 2050 5600 2050
+Wire Wire Line
+	4600 1900 4600 2050
+Connection ~ 4600 2050
+Wire Wire Line
+	4600 2050 5100 2050
+Wire Wire Line
+	7100 1950 7300 1950
+Wire Wire Line
+	7300 1950 7300 1450
+Wire Wire Line
+	7300 1450 6850 1450
+Wire Wire Line
+	6550 1450 6300 1450
+Wire Wire Line
+	6500 1850 6300 1850
+Wire Wire Line
+	6300 1850 6300 1450
+Connection ~ 6300 1450
+Wire Wire Line
+	6300 1450 5800 1450
+Wire Wire Line
+	5500 1450 5100 1450
+Wire Wire Line
+	4600 1450 4600 1600
+Wire Wire Line
+	5100 1600 5100 1450
+Connection ~ 5100 1450
+Wire Wire Line
+	5100 1450 4600 1450
+Wire Wire Line
+	4600 1450 3200 1450
+Wire Wire Line
+	3200 1450 3200 1950
+Wire Wire Line
+	3200 1950 3500 1950
+Connection ~ 4600 1450
+Wire Wire Line
+	7300 1950 7450 1950
+Wire Wire Line
+	7450 1950 7450 2750
+Wire Wire Line
+	7450 2750 5150 2750
+Wire Wire Line
+	3000 2750 3000 3350
+Wire Wire Line
+	3000 3350 3450 3350
+Connection ~ 7300 1950
+Wire Wire Line
+	3250 3950 3250 3550
+Wire Wire Line
+	3250 3550 3450 3550
+$Comp
+L Device:C C18
+U 1 1 5F0F395C
+P 7850 3850
+F 0 "C18" H 7965 3896 50  0000 L CNN
+F 1 "2.2uF" H 7965 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7888 3700 50  0001 C CNN
+F 3 "~" H 7850 3850 50  0001 C CNN
+	1    7850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR020
+U 1 1 5F0F3D01
+P 7850 4150
+F 0 "#PWR020" H 7850 3900 50  0001 C CNN
+F 1 "Earth" H 7850 4000 50  0001 C CNN
+F 2 "" H 7850 4150 50  0001 C CNN
+F 3 "~" H 7850 4150 50  0001 C CNN
+	1    7850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4000 7850 4150
+Wire Wire Line
+	7850 3700 7850 3550
+Wire Wire Line
+	7850 3550 7500 3550
+$Comp
+L Device:R_POT RV2
+U 1 1 5F0FA407
+P 4450 3700
+F 0 "RV2" H 4381 3746 50  0000 R CNN
+F 1 "R_POT" H 4381 3655 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical" H 4450 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5F0FAE2C
+P 4450 4200
+F 0 "R13" H 4380 4154 50  0000 R CNN
+F 1 "1K" H 4380 4245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 4200 50  0001 C CNN
+F 3 "~" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR018
+U 1 1 5F0FB46F
+P 4450 4450
+F 0 "#PWR018" H 4450 4200 50  0001 C CNN
+F 1 "Earth" H 4450 4300 50  0001 C CNN
+F 2 "" H 4450 4450 50  0001 C CNN
+F 3 "~" H 4450 4450 50  0001 C CNN
+	1    4450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4450 4450 4350
+Wire Wire Line
+	4450 4050 4450 3950
+Wire Wire Line
+	3250 3950 4450 3950
+Wire Wire Line
+	4450 3950 4700 3950
+Wire Wire Line
+	4700 3950 4700 3700
+Wire Wire Line
+	4700 3700 4600 3700
+Connection ~ 4450 3950
+Wire Wire Line
+	4450 3550 4450 3450
+Wire Wire Line
+	4450 3450 4050 3450
+Wire Wire Line
+	4450 3450 5150 3450
+Connection ~ 4450 3450
+Wire Wire Line
+	6550 3550 6800 3550
+Wire Wire Line
+	6800 3550 6800 3950
+Wire Wire Line
+	6800 3950 5800 3950
+Wire Wire Line
+	5800 3950 5800 3650
+Wire Wire Line
+	5800 3650 5950 3650
+Wire Wire Line
+	7200 3550 6800 3550
+Connection ~ 6800 3550
+$Comp
+L Device:R R17
+U 1 1 5F105A14
+P 7350 3550
+F 0 "R17" V 7143 3550 50  0000 C CNN
+F 1 "72.5K" V 7234 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 3550 50  0001 C CNN
+F 3 "~" H 7350 3550 50  0001 C CNN
+	1    7350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L EMG_Circuit:ADA4807-4 U4
+U 4 1 5F106228
+P 8950 3650
+F 0 "U4" H 8950 4017 50  0000 C CNN
+F 1 "ADA4807-4" H 8950 3926 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8900 3750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 9000 3850 50  0001 C CNN
+	4    8950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3650 9500 3650
+Wire Wire Line
+	9500 3650 9500 4000
+Wire Wire Line
+	9500 4000 8550 4000
+Wire Wire Line
+	8550 4000 8550 3750
+Wire Wire Line
+	8550 3750 8650 3750
+Text HLabel 3100 2150 0    50   Input ~ 0
+LP_IN
+Wire Wire Line
+	3100 2150 3500 2150
+Text HLabel 9950 3650 2    50   Input ~ 0
+AN_ADC
+Wire Wire Line
+	9950 3650 9500 3650
+Connection ~ 9500 3650
+Wire Wire Line
+	7850 3550 7950 3550
+Connection ~ 7850 3550
+$Comp
+L EMG_Circuit:ADA4807-4 U4
+U 5 1 5F12D3DE
+P 8600 1800
+F 0 "U4" H 8650 1900 50  0000 C CNN
+F 1 "ADA4807-4" H 8800 1800 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8550 1900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 8650 2000 50  0001 C CNN
+	5    8600 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 1050 1    50   Input ~ 0
++5V
+Text GLabel 8500 2600 3    50   Input ~ 0
+-5V
+$Comp
+L power:Earth #PWR025
+U 1 1 5F18E2E8
+P 9900 1850
+F 0 "#PWR025" H 9900 1600 50  0001 C CNN
+F 1 "Earth" H 9900 1700 50  0001 C CNN
+F 2 "" H 9900 1850 50  0001 C CNN
+F 3 "~" H 9900 1850 50  0001 C CNN
+	1    9900 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 1750 1    50   Input ~ 0
+GND
+Wire Wire Line
+	9900 1750 9900 1850
+Wire Wire Line
+	8500 2100 8500 2300
+Wire Wire Line
+	8500 1050 8500 1150
+$Comp
+L Device:C C20
+U 1 1 5F1CF0D0
+P 8750 2500
+F 0 "C20" H 8865 2546 50  0000 L CNN
+F 1 "4.7uF" H 8865 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8788 2350 50  0001 C CNN
+F 3 "~" H 8750 2500 50  0001 C CNN
+	1    8750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5F1D09C5
+P 9200 2500
+F 0 "C22" H 9315 2546 50  0000 L CNN
+F 1 "0.1uF" H 9315 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9238 2350 50  0001 C CNN
+F 3 "~" H 9200 2500 50  0001 C CNN
+	1    9200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR024
+U 1 1 5F1D0D29
+P 9200 2750
+F 0 "#PWR024" H 9200 2500 50  0001 C CNN
+F 1 "Earth" H 9200 2600 50  0001 C CNN
+F 2 "" H 9200 2750 50  0001 C CNN
+F 3 "~" H 9200 2750 50  0001 C CNN
+	1    9200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR022
+U 1 1 5F1D1027
+P 8750 2750
+F 0 "#PWR022" H 8750 2500 50  0001 C CNN
+F 1 "Earth" H 8750 2600 50  0001 C CNN
+F 2 "" H 8750 2750 50  0001 C CNN
+F 3 "~" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2750 8750 2650
+Wire Wire Line
+	9200 2750 9200 2650
+Wire Wire Line
+	8750 2350 8750 2300
+Wire Wire Line
+	8750 2300 8500 2300
+Connection ~ 8500 2300
+Wire Wire Line
+	8500 2300 8500 2600
+Wire Wire Line
+	9200 2350 9200 2300
+Wire Wire Line
+	9200 2300 8750 2300
+Connection ~ 8750 2300
+$Comp
+L Device:C C19
+U 1 1 5F1D69B3
+P 8750 1350
+F 0 "C19" H 8865 1396 50  0000 L CNN
+F 1 "4.7uF" H 8865 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8788 1200 50  0001 C CNN
+F 3 "~" H 8750 1350 50  0001 C CNN
+	1    8750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5F1D6DC6
+P 9200 1350
+F 0 "C21" H 9315 1396 50  0000 L CNN
+F 1 "0.1uF" H 9315 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9238 1200 50  0001 C CNN
+F 3 "~" H 9200 1350 50  0001 C CNN
+	1    9200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR021
+U 1 1 5F1D7310
+P 8750 1550
+F 0 "#PWR021" H 8750 1300 50  0001 C CNN
+F 1 "Earth" H 8750 1400 50  0001 C CNN
+F 2 "" H 8750 1550 50  0001 C CNN
+F 3 "~" H 8750 1550 50  0001 C CNN
+	1    8750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR023
+U 1 1 5F1D75D6
+P 9200 1550
+F 0 "#PWR023" H 9200 1300 50  0001 C CNN
+F 1 "Earth" H 9200 1400 50  0001 C CNN
+F 2 "" H 9200 1550 50  0001 C CNN
+F 3 "~" H 9200 1550 50  0001 C CNN
+	1    9200 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1550 8750 1500
+Wire Wire Line
+	9200 1550 9200 1500
+Wire Wire Line
+	8750 1200 8750 1150
+Wire Wire Line
+	8750 1150 8500 1150
+Connection ~ 8500 1150
+Wire Wire Line
+	8500 1150 8500 1500
+Wire Wire Line
+	9200 1200 9200 1150
+Wire Wire Line
+	9200 1150 8750 1150
+Connection ~ 8750 1150
+NoConn ~ 4450 3850
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F140DF9
+P 5150 2750
+F 0 "TP3" H 5208 2868 50  0000 L CNN
+F 1 "TestPoint" H 5208 2777 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5350 2750 50  0001 C CNN
+F 3 "~" H 5350 2750 50  0001 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 2750
+Wire Wire Line
+	5150 2750 3000 2750
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F1412A9
+P 7950 3550
+F 0 "TP5" H 8008 3668 50  0000 L CNN
+F 1 "TestPoint" H 8008 3577 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8150 3550 50  0001 C CNN
+F 3 "~" H 8150 3550 50  0001 C CNN
+	1    7950 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 3550
+Wire Wire Line
+	7950 3550 8650 3550
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F141B76
+P 5150 3450
+F 0 "TP4" H 5208 3568 50  0000 L CNN
+F 1 "TestPoint" H 5208 3477 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5350 3450 50  0001 C CNN
+F 3 "~" H 5350 3450 50  0001 C CNN
+	1    5150 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 3450
+Wire Wire Line
+	5150 3450 5950 3450
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F141E8E
+P 9500 3650
+F 0 "TP6" H 9558 3768 50  0000 L CNN
+F 1 "TestPoint" H 9558 3677 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9700 3650 50  0001 C CNN
+F 3 "~" H 9700 3650 50  0001 C CNN
+	1    9500 3650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

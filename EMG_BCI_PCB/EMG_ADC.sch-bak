@@ -1,0 +1,202 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_ADC:ADS1013IDGS U5
+U 1 1 5F120B4C
+P 5600 4000
+F 0 "U5" H 5100 4600 50  0000 C CNN
+F 1 "ADS1013IDGS" H 5300 4500 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5600 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 5650 3300 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F122DAA
+P 6400 3750
+F 0 "R18" H 6470 3796 50  0000 L CNN
+F 1 "10K" H 6470 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 3750 50  0001 C CNN
+F 3 "~" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5F1236BA
+P 6700 3750
+F 0 "R19" H 6770 3796 50  0000 L CNN
+F 1 "10K" H 6770 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5F123908
+P 7000 3750
+F 0 "R20" H 7070 3796 50  0000 L CNN
+F 1 "10K" H 7070 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 3750 50  0001 C CNN
+F 3 "~" H 7000 3750 50  0001 C CNN
+	1    7000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4000 6400 4000
+Wire Wire Line
+	6400 4000 6400 3900
+Wire Wire Line
+	6000 4100 6700 4100
+Wire Wire Line
+	6700 4100 6700 3900
+Wire Wire Line
+	7000 4200 7000 3900
+$Comp
+L power:Earth #PWR026
+U 1 1 5F124120
+P 5600 4550
+F 0 "#PWR026" H 5600 4300 50  0001 C CNN
+F 1 "Earth" H 5600 4400 50  0001 C CNN
+F 2 "" H 5600 4550 50  0001 C CNN
+F 3 "~" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4400 5600 4550
+Text GLabel 6700 3200 1    50   Input ~ 0
++5V
+Wire Wire Line
+	6400 3600 6400 3300
+Wire Wire Line
+	6400 3300 6700 3300
+Wire Wire Line
+	6700 3300 6700 3200
+Wire Wire Line
+	6700 3600 6700 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	7000 3600 7000 3300
+Text GLabel 5600 2900 1    50   Input ~ 0
++5V
+Wire Wire Line
+	6000 4200 7000 4200
+Wire Wire Line
+	6700 3300 7000 3300
+Text HLabel 4550 3900 0    50   Input ~ 0
+AN_0
+Text HLabel 4550 4000 0    50   Input ~ 0
+AN_1
+Wire Wire Line
+	4550 4000 5200 4000
+Wire Wire Line
+	4550 3900 5200 3900
+Text HLabel 6450 4000 2    50   Input ~ 0
+SCL
+Text HLabel 6750 4100 2    50   Input ~ 0
+SDA
+Text HLabel 7050 4200 2    50   Input ~ 0
+ADDR
+Wire Wire Line
+	7000 4200 7050 4200
+Connection ~ 7000 4200
+Wire Wire Line
+	6700 4100 6750 4100
+Connection ~ 6700 4100
+Wire Wire Line
+	6400 4000 6450 4000
+Connection ~ 6400 4000
+$Comp
+L Device:C C23
+U 1 1 5F1379FE
+P 5850 3200
+F 0 "C23" H 5800 3600 50  0000 L CNN
+F 1 "4.7uF" H 5800 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5888 3050 50  0001 C CNN
+F 3 "~" H 5850 3200 50  0001 C CNN
+	1    5850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 5F13805C
+P 6150 3200
+F 0 "C24" H 6150 3600 50  0000 L CNN
+F 1 "0.1uF" H 6150 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6188 3050 50  0001 C CNN
+F 3 "~" H 6150 3200 50  0001 C CNN
+	1    6150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2900 5600 3000
+$Comp
+L power:Earth #PWR027
+U 1 1 5F1387C0
+P 5850 3400
+F 0 "#PWR027" H 5850 3150 50  0001 C CNN
+F 1 "Earth" H 5850 3250 50  0001 C CNN
+F 2 "" H 5850 3400 50  0001 C CNN
+F 3 "~" H 5850 3400 50  0001 C CNN
+	1    5850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR028
+U 1 1 5F138F5B
+P 6150 3400
+F 0 "#PWR028" H 6150 3150 50  0001 C CNN
+F 1 "Earth" H 6150 3250 50  0001 C CNN
+F 2 "" H 6150 3400 50  0001 C CNN
+F 3 "~" H 6150 3400 50  0001 C CNN
+	1    6150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3400 5850 3350
+Wire Wire Line
+	6150 3400 6150 3350
+Wire Wire Line
+	5850 3050 5850 3000
+Connection ~ 5600 3000
+Wire Wire Line
+	5600 3000 5600 3500
+Wire Wire Line
+	6150 3050 6150 3000
+Wire Wire Line
+	5600 3000 5850 3000
+Connection ~ 5850 3000
+Wire Wire Line
+	5850 3000 6150 3000
+$Comp
+L power:Earth #PWR029
+U 1 1 5F18C221
+P 8400 4400
+F 0 "#PWR029" H 8400 4150 50  0001 C CNN
+F 1 "Earth" H 8400 4250 50  0001 C CNN
+F 2 "" H 8400 4400 50  0001 C CNN
+F 3 "~" H 8400 4400 50  0001 C CNN
+	1    8400 4400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 8400 4250 1    50   Input ~ 0
+GND
+Wire Wire Line
+	8400 4250 8400 4400
+$EndSCHEMATC

@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1900 1050 1250 1250
+U 5F08A48B
+F0 "EMG_FrontEnd" 50
+F1 "EMG_FrontEndsch.sch" 50
+F2 "Trode+" I L 1900 1450 50 
+F3 "Trode-" I L 1900 1550 50 
+F4 "LP_OUT" I L 1900 1850 50 
+$EndSheet
+$Sheet
+S 1900 2850 1250 1250
+U 5F16EE03
+F0 "EMG_Rect" 50
+F1 "EMG_Rect.sch" 50
+F2 "LP_IN" I L 1900 3200 50 
+F3 "AN_ADC" I L 1900 3450 50 
+$EndSheet
+$Sheet
+S 1900 4600 1250 1100
+U 5F1208C1
+F0 "EMG_ADC" 50
+F1 "EMG_ADC.sch" 50
+F2 "AN_0" I L 1900 4800 50 
+F3 "AN_1" I L 1900 4950 50 
+F4 "SCL" I R 3150 4900 50 
+F5 "SDA" I R 3150 5000 50 
+F6 "ADDR" I R 3150 5100 50 
+$EndSheet
+$Sheet
+S 1900 6050 1250 1000
+U 5F13E62E
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "Vin+" I R 3150 6600 50 
+F3 "WGND" I R 3150 6400 50 
+$EndSheet
+Wire Wire Line
+	1900 1850 1600 1850
+Wire Wire Line
+	1600 1850 1600 3200
+Wire Wire Line
+	1600 3200 1900 3200
+Wire Wire Line
+	1600 3450 1900 3450
+Wire Wire Line
+	1600 3200 1350 3200
+Wire Wire Line
+	1350 3200 1350 4800
+Wire Wire Line
+	1350 4800 1900 4800
+Connection ~ 1600 3200
+Wire Wire Line
+	1900 4950 1600 4950
+Wire Wire Line
+	1600 4950 1600 3450
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5F1E214C
+P 3850 5000
+F 0 "J3" H 3822 5024 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3822 4933 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3850 5000 50  0001 C CNN
+F 3 "~" H 3850 5000 50  0001 C CNN
+	1    3850 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4900 3650 4900
+Wire Wire Line
+	3650 5000 3150 5000
+Wire Wire Line
+	3650 5100 3150 5100
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F1E4BDA
+P 3600 6450
+F 0 "J2" H 3680 6442 50  0000 L CNN
+F 1 "Conn_01x02" H 3680 6351 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3600 6450 50  0001 C CNN
+F 3 "~" H 3600 6450 50  0001 C CNN
+	1    3600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6450 3350 6450
+Wire Wire Line
+	3350 6450 3350 6400
+Wire Wire Line
+	3400 6550 3350 6550
+Wire Wire Line
+	3350 6550 3350 6600
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5F1E5B2F
+P 900 1550
+F 0 "J1" H 818 1867 50  0000 C CNN
+F 1 "Conn_01x03" H 818 1776 50  0000 C CNN
+F 2 "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical" H 900 1550 50  0001 C CNN
+F 3 "~" H 900 1550 50  0001 C CNN
+	1    900  1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1450 1100 1450
+Wire Wire Line
+	1100 1550 1900 1550
+Text GLabel 1300 1650 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1300 1650 1100 1650
+Wire Wire Line
+	3150 6600 3350 6600
+Wire Wire Line
+	3350 6400 3150 6400
+$EndSCHEMATC
