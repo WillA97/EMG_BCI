@@ -920,12 +920,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EMG_Circuit:BAT42W-V"
+		(symbol "Diode:1N4148WT"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -939,7 +938,7 @@
 					)
 				)
 			)
-			(property "Value" "EMG_Circuit_BAT42W-V"
+			(property "Value" "1N4148WT"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -947,7 +946,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-523"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -956,7 +955,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -965,7 +964,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
 				(at 0 0 0)
 				(effects
 					(font
@@ -974,7 +973,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?123*"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -983,14 +982,41 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT42W-V_0_1"
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WT_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1002,7 +1028,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1014,14 +1040,14 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "BAT42W-V_1_1"
+			(symbol "1N4148WT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2845,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 169.8752 99.06 0)
 			(effects
 				(font
@@ -3049,7 +3075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.252 106.68 90)
 			(effects
 				(font
@@ -3180,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.21 85.852 90)
 			(effects
 				(font
@@ -3417,140 +3443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EMG_Circuit:BAT42W-V")
-		(at 129.54 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f181d9f")
-		(property "Reference" "D1"
-			(at 131.572 43.2816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT42W-V"
-			(at 131.572 45.593 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.985 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "665e601c-8fff-4015-a7bc-def69a3074c0")
-		)
-		(pin "2"
-			(uuid "85c1bb55-b1b4-43fa-bf07-7f44db220949")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMG_Circuit:BAT42W-V")
-		(at 146.05 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f18264e")
-		(property "Reference" "D2"
-			(at 146.05 46.5582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT42W-V"
-			(at 146.05 48.8696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 146.05 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "716d0ee7-2fd1-456c-8f9a-6e2a7e5dd0a5")
-		)
-		(pin "2"
-			(uuid "c84906e3-76ca-43f2-9152-f0cc09b23f4f")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 116.84 44.45 0)
 		(unit 1)
@@ -3577,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 117.8052 48.26 0)
 			(effects
 				(font
@@ -3643,7 +3535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.51 35.052 90)
 			(effects
 				(font
@@ -3709,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 170.18 35.052 90)
 			(effects
 				(font
@@ -3777,7 +3669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 161.798 58.42 90)
 			(effects
 				(font
@@ -3910,7 +3802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 223.2152 67.31 0)
 			(effects
 				(font
@@ -3978,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.6452 67.31 0)
 			(effects
 				(font
@@ -4176,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 223.2152 38.1 0)
 			(effects
 				(font
@@ -4244,7 +4136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.6452 38.1 0)
 			(effects
 				(font
@@ -4639,52 +4531,140 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea152785-0d2f-407c-9954-454467036c4f")
+			(uuid "ea152785-0d2f-407c-9954-454467036c50")
 		)
 		(pin "3"
-			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3a")
+			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3b")
 		)
 		(pin "10"
-			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e1")
+			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e2")
 		)
 		(pin "9"
-			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50b8")
+			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50b9")
 		)
 		(pin "14"
-			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7ad")
+			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7ae")
 		)
 		(pin "5"
-			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca2")
+			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca3")
 		)
 		(pin "6"
-			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2164")
+			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2165")
 		)
 		(pin "7"
-			(uuid "47460853-24ea-4a08-ae29-22e4610bde7a")
+			(uuid "47460853-24ea-4a08-ae29-22e4610bde7b")
 		)
 		(pin "8"
-			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e6")
+			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e7")
 		)
 		(pin "12"
-			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a0")
+			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a1")
 		)
 		(pin "13"
-			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519996")
+			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519997")
 		)
 		(pin "4"
-			(uuid "9aa86662-216a-44e1-a071-0592a25f4d64")
+			(uuid "9aa86662-216a-44e1-a071-0592a25f4d65")
 		)
 		(pin "1"
-			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764843")
+			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764844")
 		)
 		(pin "11"
-			(uuid "33137402-d63d-4191-bd53-f4867fa994c2")
+			(uuid "33137402-d63d-4191-bd53-f4867fa994c3")
 		)
 		(instances
 			(project ""
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
 					(reference "U3")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 129.54 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd5341a-83f5-4dc8-a60d-ed9ed4e88732")
+		(property "Reference" "D3"
+			(at 132.08 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 132.08 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 133.985 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6e3d2ca-4cc3-412a-9c85-71c8c7a9fc6d")
+		)
+		(pin "1"
+			(uuid "e2fba7c4-c85d-4bb7-9aff-a19f8c964180")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
+					(reference "D3")
+					(unit 1)
 				)
 			)
 		)
@@ -4847,7 +4827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 63.8048 146.05 0)
 			(effects
 				(font
@@ -4942,46 +4922,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea152785-0d2f-407c-9954-454467036c4f")
+			(uuid "ea152785-0d2f-407c-9954-454467036c51")
 		)
 		(pin "3"
-			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3a")
+			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3c")
 		)
 		(pin "10"
-			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e1")
+			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e3")
 		)
 		(pin "9"
-			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50b8")
+			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50ba")
 		)
 		(pin "14"
-			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7ad")
+			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7af")
 		)
 		(pin "5"
-			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca2")
+			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca4")
 		)
 		(pin "6"
-			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2164")
+			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2166")
 		)
 		(pin "7"
-			(uuid "47460853-24ea-4a08-ae29-22e4610bde7a")
+			(uuid "47460853-24ea-4a08-ae29-22e4610bde7c")
 		)
 		(pin "8"
-			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e6")
+			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e8")
 		)
 		(pin "12"
-			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a0")
+			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a2")
 		)
 		(pin "13"
-			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519996")
+			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519998")
 		)
 		(pin "4"
-			(uuid "9aa86662-216a-44e1-a071-0592a25f4d64")
+			(uuid "9aa86662-216a-44e1-a071-0592a25f4d66")
 		)
 		(pin "1"
-			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764843")
+			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764845")
 		)
 		(pin "11"
-			(uuid "33137402-d63d-4191-bd53-f4867fa994c2")
+			(uuid "33137402-d63d-4191-bd53-f4867fa994c4")
 		)
 		(instances
 			(project ""
@@ -5019,7 +4999,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 24.4348 146.05 0)
 			(effects
 				(font
@@ -5055,6 +5035,92 @@
 			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 146.05 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3121c3bf-23a4-4db8-8048-0f1c3adf7d49")
+		(property "Reference" "D4"
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 146.05 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2890fc3-a002-40cb-bbfe-19be4be926fc")
+		)
+		(pin "1"
+			(uuid "ff532951-d05a-43ab-9ed5-d523df96c44b")
+		)
+		(instances
+			(project "EMG_BCI_PCB"
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5116,46 +5182,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea152785-0d2f-407c-9954-454467036c4f")
+			(uuid "ea152785-0d2f-407c-9954-454467036c52")
 		)
 		(pin "3"
-			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3a")
+			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3d")
 		)
 		(pin "10"
-			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e1")
+			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e4")
 		)
 		(pin "9"
-			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50b8")
+			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50bb")
 		)
 		(pin "14"
-			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7ad")
+			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7b0")
 		)
 		(pin "5"
-			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca2")
+			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca5")
 		)
 		(pin "6"
-			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2164")
+			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2167")
 		)
 		(pin "7"
-			(uuid "47460853-24ea-4a08-ae29-22e4610bde7a")
+			(uuid "47460853-24ea-4a08-ae29-22e4610bde7d")
 		)
 		(pin "8"
-			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e6")
+			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e9")
 		)
 		(pin "12"
-			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a0")
+			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a3")
 		)
 		(pin "13"
-			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519996")
+			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519999")
 		)
 		(pin "4"
-			(uuid "9aa86662-216a-44e1-a071-0592a25f4d64")
+			(uuid "9aa86662-216a-44e1-a071-0592a25f4d67")
 		)
 		(pin "1"
-			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764843")
+			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764846")
 		)
 		(pin "11"
-			(uuid "33137402-d63d-4191-bd53-f4867fa994c2")
+			(uuid "33137402-d63d-4191-bd53-f4867fa994c5")
 		)
 		(instances
 			(project ""
@@ -5193,7 +5259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.03 139.192 90)
 			(effects
 				(font
@@ -5536,7 +5602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 127.762 90)
 			(effects
 				(font
@@ -5696,46 +5762,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea152785-0d2f-407c-9954-454467036c4f")
+			(uuid "ea152785-0d2f-407c-9954-454467036c53")
 		)
 		(pin "3"
-			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3a")
+			(uuid "e31be0f7-bfce-4481-a48c-afed966f3c3e")
 		)
 		(pin "10"
-			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e1")
+			(uuid "0183163a-9920-49de-a6a9-cb65b10ff0e5")
 		)
 		(pin "9"
-			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50b8")
+			(uuid "5fa911af-0a2c-4f43-a9b7-1cdd0dcd50bc")
 		)
 		(pin "14"
-			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7ad")
+			(uuid "ffbb9dcf-af01-42d4-ae81-9b7ab2ada7b1")
 		)
 		(pin "5"
-			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca2")
+			(uuid "e4c969e8-ea44-446e-8583-2e65c98f9ca6")
 		)
 		(pin "6"
-			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2164")
+			(uuid "d40c42d3-a53a-45fc-8694-f12e629b2168")
 		)
 		(pin "7"
-			(uuid "47460853-24ea-4a08-ae29-22e4610bde7a")
+			(uuid "47460853-24ea-4a08-ae29-22e4610bde7e")
 		)
 		(pin "8"
-			(uuid "07c5761f-1322-4aee-a9e8-acee569f55e6")
+			(uuid "07c5761f-1322-4aee-a9e8-acee569f55ea")
 		)
 		(pin "12"
-			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a0")
+			(uuid "5bbd6b12-115f-43f9-9bed-f7e9c02131a4")
 		)
 		(pin "13"
-			(uuid "ceadf043-8ffa-4bbe-962d-b27ea7519996")
+			(uuid "ceadf043-8ffa-4bbe-962d-b27ea751999a")
 		)
 		(pin "4"
-			(uuid "9aa86662-216a-44e1-a071-0592a25f4d64")
+			(uuid "9aa86662-216a-44e1-a071-0592a25f4d68")
 		)
 		(pin "1"
-			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764843")
+			(uuid "803c482b-e60f-4e46-a08e-7bfc8c764847")
 		)
 		(pin "11"
-			(uuid "33137402-d63d-4191-bd53-f4867fa994c2")
+			(uuid "33137402-d63d-4191-bd53-f4867fa994c6")
 		)
 		(instances
 			(project ""
@@ -5838,7 +5904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 139.192 90)
 			(effects
 				(font
