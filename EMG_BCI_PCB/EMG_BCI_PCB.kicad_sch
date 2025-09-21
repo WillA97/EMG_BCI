@@ -437,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 133.35) (xy 73.66 133.35)
+			(xy 119.38 133.35) (xy 72.39 133.35)
 		)
 		(stroke
 			(width 0)
@@ -477,7 +477,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 133.35) (xy 73.66 93.98)
+			(xy 72.39 133.35) (xy 72.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +497,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 125.73) (xy 76.2 91.44)
+			(xy 74.93 125.73) (xy 74.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +507,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 93.98) (xy 48.26 93.98)
+			(xy 72.39 93.98) (xy 48.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +527,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 48.26 91.44)
+			(xy 74.93 91.44) (xy 48.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 76.2 125.73)
+			(xy 119.38 125.73) (xy 74.93 125.73)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +946,7 @@
 		)
 	)
 	(sheet
-		(at 120.65 118.11)
+		(at 119.38 118.11)
 		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -962,7 +962,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005f13e62e")
 		(property "Sheetname" "Power"
-			(at 120.65 117.3984 0)
+			(at 119.38 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +971,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 120.65 144.0946 0)
+			(at 119.38 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +980,7 @@
 			)
 		)
 		(pin "RTN" input
-			(at 120.65 133.35 180)
+			(at 119.38 133.35 180)
 			(uuid "96ef46f4-1d45-4524-bbf3-e4dbb44b6c40")
 			(effects
 				(font
@@ -990,7 +990,7 @@
 			)
 		)
 		(pin "Vin+" input
-			(at 120.65 125.73 180)
+			(at 119.38 125.73 180)
 			(uuid "a6e03a82-ebfe-4207-ba39-ff484b4805df")
 			(effects
 				(font

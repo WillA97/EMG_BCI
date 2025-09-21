@@ -674,26 +674,6 @@
 		)
 		(uuid "e1587362-2b6b-4694-b45d-e9a32d9f4075")
 	)
-	(global_label "+5V"
-		(shape input)
-		(at 149.86 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad90b384-1545-489d-a02e-5dddeaa75930")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "DIN"
 		(shape input)
 		(at 181.61 111.76 0)
