@@ -5,6 +5,396 @@
 	(uuid "316cf6de-5011-4229-8577-27baa9cf0ece")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:ADA4807-4ARUZ"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADA4807-4ARUZ"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADA4807-4ARUZ_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4807-4ARUZ_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4807-4ARUZ_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4807-4ARUZ_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4807-4ARUZ_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -365,387 +755,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EMG_Circuit:ADA4807-4"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "EMG_Circuit_ADA4807-4"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADA4807-4_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADA4807-4_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADA4807-4_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADA4807-4_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADA4807-4_5_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2479,112 +2488,6 @@
 		(uuid "df0d04fe-ce71-4303-b05d-9b1ff75fe7a3")
 	)
 	(symbol
-		(lib_id "EMG_Circuit:ADA4807-4")
-		(at 191.77 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f0bccda")
-		(property "Reference" "U2"
-			(at 191.77 47.8282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4807-4"
-			(at 191.77 50.1396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 190.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
-			(at 193.04 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "4c42d88c-b760-4938-b00d-e14b9431961d")
-		)
-		(pin "6"
-			(uuid "6adb4c72-9717-4bfa-acb7-13017d1bec4e")
-		)
-		(pin "7"
-			(uuid "fe869a46-33a0-4e65-9d8a-914227b3cca1")
-		)
-		(pin "9"
-			(uuid "8a8af872-e1bf-47b4-a598-a10a2645faf2")
-		)
-		(pin "5"
-			(uuid "2403927f-d982-45af-8f81-3154611fd549")
-		)
-		(pin "1"
-			(uuid "27948541-eb82-4891-861e-4f42cedb917b")
-		)
-		(pin "10"
-			(uuid "132110dc-9834-485d-be1a-5b7263a8f03a")
-		)
-		(pin "13"
-			(uuid "7b8f4a02-7fd9-4c01-adc5-129d58163904")
-		)
-		(pin "2"
-			(uuid "d4f9b2ba-8a1c-4b43-8c7f-1ca24603fe9e")
-		)
-		(pin "3"
-			(uuid "8041f584-1eac-4456-b335-80ea795e985f")
-		)
-		(pin "4"
-			(uuid "37238e99-7f85-4a39-82fa-93b5e18fea1e")
-		)
-		(pin "14"
-			(uuid "51d3cf94-802a-49f6-af2d-a873a985abf0")
-		)
-		(pin "12"
-			(uuid "23c3d8e4-ce95-4621-9bd6-65f5e562666d")
-		)
-		(pin "11"
-			(uuid "2960536a-a343-493e-a089-f5124f252887")
-		)
-		(instances
-			(project ""
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
-					(reference "U?")
-					(unit 1)
-				)
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 140.97 54.61 270)
 		(unit 1)
@@ -2861,112 +2764,6 @@
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "#PWR012")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMG_Circuit:ADA4807-4")
-		(at 245.11 59.69 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f0bcd10")
-		(property "Reference" "U2"
-			(at 245.11 50.3682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4807-4"
-			(at 245.11 52.6796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 243.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
-			(at 246.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b2f82552-c590-47fc-8738-ed13c0cffc27")
-		)
-		(pin "6"
-			(uuid "88dfe7a5-8a02-4fa3-a0f1-d8339cbb5df6")
-		)
-		(pin "12"
-			(uuid "a1429020-0ff7-42b8-9834-139d407344f2")
-		)
-		(pin "3"
-			(uuid "e01edda6-491e-42e3-9879-712adf8a3928")
-		)
-		(pin "5"
-			(uuid "083ad363-2b0c-4e24-8fb9-bd74de01cf04")
-		)
-		(pin "10"
-			(uuid "69320759-5692-4380-8b3a-3f0a368162a1")
-		)
-		(pin "8"
-			(uuid "72647afe-8ad8-4fc9-bdf9-128df38b6f76")
-		)
-		(pin "13"
-			(uuid "6beeab1d-0134-42d7-bff1-50fb2319bdfe")
-		)
-		(pin "14"
-			(uuid "afcd052e-4f2e-4a6d-91f7-28eabc404c5b")
-		)
-		(pin "2"
-			(uuid "68742ff4-45b0-4001-baed-67c778d4f22e")
-		)
-		(pin "1"
-			(uuid "38cc3842-0cec-4a00-9bb2-c162fc950b2e")
-		)
-		(pin "7"
-			(uuid "c6754a2a-6561-42d6-9e4f-9e39bab91eb0")
-		)
-		(pin "9"
-			(uuid "449214b3-822a-4af6-89b5-3cabcf24dc9e")
-		)
-		(pin "11"
-			(uuid "6f34e2c1-fccb-471e-8ec8-a933c9f819b5")
-		)
-		(instances
-			(project ""
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
-					(reference "U?")
-					(unit 2)
-				)
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -3250,112 +3047,6 @@
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "C12")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMG_Circuit:ADA4807-4")
-		(at 186.69 111.76 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f0bcd4b")
-		(property "Reference" "U3"
-			(at 186.69 102.4382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4807-4"
-			(at 186.69 104.7496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 185.42 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "4b5c76c7-631b-4da4-8f6d-4f5e460cfbaa")
-		)
-		(pin "10"
-			(uuid "5041befb-2d6e-4b14-a3ac-5dbd3a74097a")
-		)
-		(pin "11"
-			(uuid "7a3a9ef3-6f81-4994-b507-f8c57a97ba07")
-		)
-		(pin "4"
-			(uuid "645e83dd-8e4d-4e22-83e0-00fd1a37b9e8")
-		)
-		(pin "6"
-			(uuid "fdb55b27-7e25-451b-85c1-5e4ed6284a8d")
-		)
-		(pin "12"
-			(uuid "f2d31139-cc48-4e5d-bcbe-f09ba4a33e8a")
-		)
-		(pin "3"
-			(uuid "9eb52d42-208d-400b-b9c2-827e0e7d9b44")
-		)
-		(pin "2"
-			(uuid "efc04e8f-a14b-4ee9-a675-f7387990474e")
-		)
-		(pin "1"
-			(uuid "7fc47808-f956-477c-a444-5b13138e31a3")
-		)
-		(pin "13"
-			(uuid "1637d52e-96fd-4977-8836-121479f9ce70")
-		)
-		(pin "9"
-			(uuid "0901147c-c1e1-4a0b-99b5-bc1769cf301b")
-		)
-		(pin "14"
-			(uuid "cc537f5c-6e0d-4386-9595-13f6df7df631")
-		)
-		(pin "5"
-			(uuid "8f0c576c-47f7-41ab-8874-ba3d56da8241")
-		)
-		(pin "8"
-			(uuid "a1c49feb-e834-42ac-981d-7f782f775f5f")
-		)
-		(instances
-			(project ""
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
-					(reference "U?")
-					(unit 2)
-				)
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "U3")
-					(unit 3)
 				)
 			)
 		)
@@ -3917,112 +3608,6 @@
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "#PWR010")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMG_Circuit:ADA4807-4")
-		(at 82.55 137.16 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f124fb4")
-		(property "Reference" "U3"
-			(at 85.09 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4807-4"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 81.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2189abc9-a302-4b87-857a-a30eb0e03824")
-		)
-		(pin "12"
-			(uuid "e065c60a-f255-41f2-bd78-afdc24729578")
-		)
-		(pin "4"
-			(uuid "1fb8f33d-7e09-4e6f-b43d-0a96ebaa7aeb")
-		)
-		(pin "5"
-			(uuid "7710b9a3-5304-41d6-adf5-4f8e53a826a9")
-		)
-		(pin "13"
-			(uuid "de7217a7-530d-4e3c-90d9-1b5b5423dfaa")
-		)
-		(pin "6"
-			(uuid "a09d656a-6f8a-492e-8fbc-1677ef1c24e1")
-		)
-		(pin "10"
-			(uuid "00c3e297-0061-4db6-8857-a0c2b1b52695")
-		)
-		(pin "1"
-			(uuid "c46dcfa2-b072-46bd-a657-287d7e9e7de8")
-		)
-		(pin "7"
-			(uuid "e655a73a-0272-4cb9-9507-5a550c665ae8")
-		)
-		(pin "14"
-			(uuid "8c22c9cf-e420-407e-84c2-aa7edb72bb53")
-		)
-		(pin "8"
-			(uuid "e9072320-e030-40bd-bbc9-13f523372927")
-		)
-		(pin "11"
-			(uuid "131586bb-e035-4f23-be1c-0e0dbdb9f434")
-		)
-		(pin "9"
-			(uuid "46eeff09-f7a2-4649-8b80-cd49e144668e")
-		)
-		(pin "3"
-			(uuid "d4a74622-fe9c-45a3-a150-d71a0d9fec18")
-		)
-		(instances
-			(project ""
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
-					(reference "U?")
-					(unit 2)
-				)
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "U3")
-					(unit 5)
 				)
 			)
 		)
@@ -4722,24 +4307,25 @@
 		)
 	)
 	(symbol
-		(lib_id "EMG_Circuit:ADA4807-4")
+		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
 		(at 87.63 83.82 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "18be8d49-6ad9-41a0-a581-3ebc5f465db2")
+		(fields_autoplaced yes)
+		(uuid "0d83b62e-a232-4b98-8721-cebed7ce1f32")
 		(property "Reference" "U2"
-			(at 87.63 74.4982 0)
+			(at 87.63 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADA4807-4"
-			(at 87.63 76.8096 0)
+		(property "Value" "ADA4807-4ARUZ"
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,61 +4350,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
 			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "4b5c76c7-631b-4da4-8f6d-4f5e460cfbaa")
-		)
-		(pin "10"
-			(uuid "ee9456bd-f2ae-4c7d-9c03-cc49a6208cda")
-		)
-		(pin "11"
-			(uuid "7a3a9ef3-6f81-4994-b507-f8c57a97ba07")
-		)
-		(pin "4"
-			(uuid "645e83dd-8e4d-4e22-83e0-00fd1a37b9e8")
-		)
-		(pin "6"
-			(uuid "fdb55b27-7e25-451b-85c1-5e4ed6284a8d")
-		)
-		(pin "12"
-			(uuid "f2d31139-cc48-4e5d-bcbe-f09ba4a33e8a")
-		)
-		(pin "3"
-			(uuid "9eb52d42-208d-400b-b9c2-827e0e7d9b44")
-		)
-		(pin "2"
-			(uuid "efc04e8f-a14b-4ee9-a675-f7387990474e")
+		(pin "5"
+			(uuid "9bd4f68d-6194-4e8c-af6d-5279150211cb")
 		)
 		(pin "1"
-			(uuid "7fc47808-f956-477c-a444-5b13138e31a3")
+			(uuid "88a0606b-5e71-4837-9856-884373d7fb5d")
 		)
 		(pin "13"
-			(uuid "1637d52e-96fd-4977-8836-121479f9ce70")
+			(uuid "42101cfc-d3c6-4a46-8c0d-1ec7005b144e")
+		)
+		(pin "3"
+			(uuid "56f76fa1-fe81-49a4-a616-5db145dc8b34")
+		)
+		(pin "2"
+			(uuid "a37aedcd-2d19-4737-b158-bf84f47b63e1")
 		)
 		(pin "9"
-			(uuid "b4c328e6-f4b1-4b0f-bc5b-0247cec4cd35")
-		)
-		(pin "14"
-			(uuid "cc537f5c-6e0d-4386-9595-13f6df7df631")
-		)
-		(pin "5"
-			(uuid "8f0c576c-47f7-41ab-8874-ba3d56da8241")
+			(uuid "8c0b1246-19cb-41f8-b5b3-a29100707e89")
 		)
 		(pin "8"
-			(uuid "0d29fc3c-1ff8-417a-ab9d-d532109e401c")
+			(uuid "d0df1024-63e1-4a75-bfeb-3438b5d3cd7b")
+		)
+		(pin "7"
+			(uuid "dd3e6e33-34e5-41b5-bb27-d8b13df31430")
+		)
+		(pin "6"
+			(uuid "6a1549d3-0e1b-4854-bff8-4c4fc749fc4b")
+		)
+		(pin "10"
+			(uuid "9079ff1e-c7b4-410c-8ca5-9527ee46e22d")
+		)
+		(pin "12"
+			(uuid "3dfd6dae-4c8f-4d30-8349-44127f2a8dcc")
+		)
+		(pin "4"
+			(uuid "46c444cd-e1b0-421f-9ada-ffa2f3aa6050")
+		)
+		(pin "11"
+			(uuid "8dd60588-d786-445e-9c0a-c2572f9201ba")
+		)
+		(pin "14"
+			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4208")
 		)
 		(instances
-			(project "EMG_BCI_PCB"
+			(project ""
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "U2")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -4890,6 +4477,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
+		(at 82.55 137.16 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4176a58e-855a-4ef8-932a-075f32e0ce75")
+		(property "Reference" "U2"
+			(at 81.28 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADA4807-4ARUZ"
+			(at 81.28 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 81.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9bd4f68d-6194-4e8c-af6d-5279150211cb")
+		)
+		(pin "1"
+			(uuid "88a0606b-5e71-4837-9856-884373d7fb5d")
+		)
+		(pin "13"
+			(uuid "42101cfc-d3c6-4a46-8c0d-1ec7005b144e")
+		)
+		(pin "3"
+			(uuid "56f76fa1-fe81-49a4-a616-5db145dc8b34")
+		)
+		(pin "2"
+			(uuid "a37aedcd-2d19-4737-b158-bf84f47b63e1")
+		)
+		(pin "9"
+			(uuid "8c0b1246-19cb-41f8-b5b3-a29100707e89")
+		)
+		(pin "8"
+			(uuid "d0df1024-63e1-4a75-bfeb-3438b5d3cd7b")
+		)
+		(pin "7"
+			(uuid "dd3e6e33-34e5-41b5-bb27-d8b13df31430")
+		)
+		(pin "6"
+			(uuid "6a1549d3-0e1b-4854-bff8-4c4fc749fc4b")
+		)
+		(pin "10"
+			(uuid "9079ff1e-c7b4-410c-8ca5-9527ee46e22d")
+		)
+		(pin "12"
+			(uuid "3dfd6dae-4c8f-4d30-8349-44127f2a8dcc")
+		)
+		(pin "4"
+			(uuid "46c444cd-e1b0-421f-9ada-ffa2f3aa6050")
+		)
+		(pin "11"
+			(uuid "8dd60588-d786-445e-9c0a-c2572f9201ba")
+		)
+		(pin "14"
+			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4208")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 118.11 21.59 0)
 		(unit 1)
@@ -4956,6 +4649,214 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
+		(at 191.77 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50e3f6a8-9c1f-4050-aaef-2e52cf1d5806")
+		(property "Reference" "U2"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4807-4ARUZ"
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9bd4f68d-6194-4e8c-af6d-5279150211cb")
+		)
+		(pin "1"
+			(uuid "88a0606b-5e71-4837-9856-884373d7fb5d")
+		)
+		(pin "13"
+			(uuid "42101cfc-d3c6-4a46-8c0d-1ec7005b144e")
+		)
+		(pin "3"
+			(uuid "56f76fa1-fe81-49a4-a616-5db145dc8b34")
+		)
+		(pin "2"
+			(uuid "a37aedcd-2d19-4737-b158-bf84f47b63e1")
+		)
+		(pin "9"
+			(uuid "8c0b1246-19cb-41f8-b5b3-a29100707e89")
+		)
+		(pin "8"
+			(uuid "d0df1024-63e1-4a75-bfeb-3438b5d3cd7b")
+		)
+		(pin "7"
+			(uuid "dd3e6e33-34e5-41b5-bb27-d8b13df31430")
+		)
+		(pin "6"
+			(uuid "6a1549d3-0e1b-4854-bff8-4c4fc749fc4b")
+		)
+		(pin "10"
+			(uuid "9079ff1e-c7b4-410c-8ca5-9527ee46e22d")
+		)
+		(pin "12"
+			(uuid "3dfd6dae-4c8f-4d30-8349-44127f2a8dcc")
+		)
+		(pin "4"
+			(uuid "46c444cd-e1b0-421f-9ada-ffa2f3aa6050")
+		)
+		(pin "11"
+			(uuid "8dd60588-d786-445e-9c0a-c2572f9201ba")
+		)
+		(pin "14"
+			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4208")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
+		(at 245.11 59.69 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51fe854a-cc16-43fe-b22f-16d72f026cad")
+		(property "Reference" "U2"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4807-4ARUZ"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 243.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 246.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9bd4f68d-6194-4e8c-af6d-5279150211cb")
+		)
+		(pin "1"
+			(uuid "88a0606b-5e71-4837-9856-884373d7fb5d")
+		)
+		(pin "13"
+			(uuid "42101cfc-d3c6-4a46-8c0d-1ec7005b144e")
+		)
+		(pin "3"
+			(uuid "56f76fa1-fe81-49a4-a616-5db145dc8b34")
+		)
+		(pin "2"
+			(uuid "a37aedcd-2d19-4737-b158-bf84f47b63e1")
+		)
+		(pin "9"
+			(uuid "8c0b1246-19cb-41f8-b5b3-a29100707e89")
+		)
+		(pin "8"
+			(uuid "d0df1024-63e1-4a75-bfeb-3438b5d3cd7b")
+		)
+		(pin "7"
+			(uuid "dd3e6e33-34e5-41b5-bb27-d8b13df31430")
+		)
+		(pin "6"
+			(uuid "6a1549d3-0e1b-4854-bff8-4c4fc749fc4b")
+		)
+		(pin "10"
+			(uuid "9079ff1e-c7b4-410c-8ca5-9527ee46e22d")
+		)
+		(pin "12"
+			(uuid "3dfd6dae-4c8f-4d30-8349-44127f2a8dcc")
+		)
+		(pin "4"
+			(uuid "46c444cd-e1b0-421f-9ada-ffa2f3aa6050")
+		)
+		(pin "11"
+			(uuid "8dd60588-d786-445e-9c0a-c2572f9201ba")
+		)
+		(pin "14"
+			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4208")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 60.96 100.33 0)
 		(unit 1)
@@ -5016,6 +4917,110 @@
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "#PWR047")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
+		(at 186.69 111.76 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3d78af-7e41-4048-ac09-42b59789582f")
+		(property "Reference" "U2"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4807-4ARUZ"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 187.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9bd4f68d-6194-4e8c-af6d-5279150211cb")
+		)
+		(pin "1"
+			(uuid "88a0606b-5e71-4837-9856-884373d7fb5d")
+		)
+		(pin "13"
+			(uuid "42101cfc-d3c6-4a46-8c0d-1ec7005b144e")
+		)
+		(pin "3"
+			(uuid "56f76fa1-fe81-49a4-a616-5db145dc8b34")
+		)
+		(pin "2"
+			(uuid "a37aedcd-2d19-4737-b158-bf84f47b63e1")
+		)
+		(pin "9"
+			(uuid "8c0b1246-19cb-41f8-b5b3-a29100707e89")
+		)
+		(pin "8"
+			(uuid "d0df1024-63e1-4a75-bfeb-3438b5d3cd7b")
+		)
+		(pin "7"
+			(uuid "dd3e6e33-34e5-41b5-bb27-d8b13df31430")
+		)
+		(pin "6"
+			(uuid "6a1549d3-0e1b-4854-bff8-4c4fc749fc4b")
+		)
+		(pin "10"
+			(uuid "9079ff1e-c7b4-410c-8ca5-9527ee46e22d")
+		)
+		(pin "12"
+			(uuid "3dfd6dae-4c8f-4d30-8349-44127f2a8dcc")
+		)
+		(pin "4"
+			(uuid "46c444cd-e1b0-421f-9ada-ffa2f3aa6050")
+		)
+		(pin "11"
+			(uuid "8dd60588-d786-445e-9c0a-c2572f9201ba")
+		)
+		(pin "14"
+			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4208")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "U2")
+					(unit 4)
 				)
 			)
 		)

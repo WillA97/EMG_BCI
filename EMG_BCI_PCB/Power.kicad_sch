@@ -1305,7 +1305,7 @@
 	)
 	(text_box "Input Voltage expected to be 5V"
 		(exclude_from_sim no)
-		(at 33.02 72.39 0)
+		(at 29.21 118.11 0)
 		(size 27.94 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1326,7 +1326,7 @@
 	)
 	(text_box "Output is fixed at 3.3V. Has a 1.5 A current limit"
 		(exclude_from_sim no)
-		(at 106.68 123.19 0)
+		(at 105.41 118.11 0)
 		(size 27.94 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
