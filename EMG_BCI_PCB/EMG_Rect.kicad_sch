@@ -930,7 +930,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_POT"
+		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -946,7 +946,7 @@
 					)
 				)
 			)
-			(property "Value" "Device_R_POT"
+			(property "Value" "R_Potentiometer"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -963,7 +963,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -972,7 +972,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -990,13 +999,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_POT_0_1"
+			(symbol "R_Potentiometer_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1008,7 +1017,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -1020,14 +1029,14 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "R_POT_1_1"
+			(symbol "R_Potentiometer_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3177,77 +3186,6 @@
 			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_POT")
-		(at 113.03 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f0fa407")
-		(property "Reference" "RV2"
-			(at 111.2774 92.8116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_POT"
-			(at 111.2774 95.123 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "c62db1d5-9ff5-4f1b-990e-afd485af7a44")
-		)
-		(pin "1"
-			(uuid "cd52d5e9-cda8-408c-9f33-e77b27efa84d")
-		)
-		(pin "2"
-			(uuid "5a1e2a60-e45b-40e2-8097-fd1df6900747")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
-					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -5848,6 +5786,79 @@
 			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 113.03 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa4120d8-8749-42b2-992a-18aea9792097")
+		(property "Reference" "RV1"
+			(at 110.49 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 110.49 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "862a9d13-9e41-4603-ae87-8d263b732a3a")
+		)
+		(pin "1"
+			(uuid "61404bed-56be-4192-8602-30aaeaafcf3e")
+		)
+		(pin "2"
+			(uuid "23f630ea-5084-4928-8a1f-eda01c4093a7")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f16ee03"
+					(reference "RV1")
 					(unit 1)
 				)
 			)

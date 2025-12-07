@@ -4411,6 +4411,92 @@
 		)
 	)
 	(symbol
+		(lib_id "WillsLibrary:INA350")
+		(at 118.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df6024a-dc1a-4951-b419-4d2226ae7ece")
+		(property "Reference" "U1"
+			(at 133.35 48.1898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA350"
+			(at 133.35 50.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Wills_FootprintLibrary:SOT-23-THIN"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20feedbd-166c-447a-a763-3b7c98f00caa")
+		)
+		(pin "5"
+			(uuid "7ae5e8c4-37e3-4bac-827e-8afd97a5e83c")
+		)
+		(pin "7"
+			(uuid "8d984244-b20d-46c3-8a78-af36d72aff75")
+		)
+		(pin "2"
+			(uuid "13e680ad-7d7e-442d-8335-ac3e4584e7af")
+		)
+		(pin "4"
+			(uuid "382174a0-39c1-4d83-b99a-03f35c2f541c")
+		)
+		(pin "8"
+			(uuid "3619caa7-ea69-4790-bddb-159a01ea1a7b")
+		)
+		(pin "3"
+			(uuid "9d6d7cfb-6dc9-4584-8f35-a6751038f27d")
+		)
+		(pin "6"
+			(uuid "7b3e8d3a-8212-459e-83a9-086333e2cb6e")
+		)
+		(instances
+			(project ""
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 60.96 49.53 0)
 		(unit 1)
@@ -5356,91 +5442,6 @@
 			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WillsLibrary:INA350")
-		(at 118.11 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1abf753-bbaf-4fdb-bfc6-ec448a7b9961")
-		(property "Reference" "U1"
-			(at 126.492 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA350"
-			(at 128.524 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Wills_FootprintLibrary:SOT-23-THIN"
-			(at 118.11 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6d5ea75a-ae91-488e-8c4d-6dd56c3e10e8")
-		)
-		(pin "1"
-			(uuid "0553ffd0-c9ab-453e-a435-ad24e4e94f27")
-		)
-		(pin "8"
-			(uuid "5aa91e8f-5ee3-439a-9df9-f4b0ea57c622")
-		)
-		(pin "7"
-			(uuid "7607f31a-a9d4-4cbe-9d91-4e6e529688e6")
-		)
-		(pin "2"
-			(uuid "c8572bb0-f9d1-4e30-8a77-184965b1261d")
-		)
-		(pin "4"
-			(uuid "cdbb637d-2049-438c-ab3b-36c9aaa3bc17")
-		)
-		(pin "5"
-			(uuid "cb6f896d-7903-415a-8e80-e5d529890e36")
-		)
-		(pin "6"
-			(uuid "0e6e2425-9717-4b46-a37c-75d75fb3ba99")
-		)
-		(instances
-			(project ""
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "U1")
 					(unit 1)
 				)
 			)
