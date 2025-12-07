@@ -1159,149 +1159,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pspice:INDUCTOR"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "pspice_INDUCTOR"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INDUCTOR_0_1"
-				(arc
-					(start -5.08 0)
-					(mid -3.81 1.27)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.27)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.27)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.27)
-					(end 5.08 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INDUCTOR_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text_box "Input Voltage expected to be 5V"
 		(exclude_from_sim no)
@@ -1599,16 +1456,6 @@
 			(type default)
 		)
 		(uuid "418153bb-2246-4d0b-b158-91a60ac86382")
-	)
-	(wire
-		(pts
-			(xy 73.66 95.25) (xy 80.01 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b4fc03-e9a4-43a5-9874-20ec32ba29cc")
 	)
 	(wire
 		(pts
@@ -1932,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 95.25) (xy 60.96 95.25)
+			(xy 40.64 95.25) (xy 80.01 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 58.42) (xy 177.8 58.42)
+			(xy 168.91 58.42) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2169,16 +2016,6 @@
 			(type default)
 		)
 		(uuid "f55b8ee1-a8ee-4b5d-8af0-d0f65a8e1d38")
-	)
-	(wire
-		(pts
-			(xy 190.5 58.42) (xy 196.85 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f660eb16-3962-47e2-a71c-adf0ad2a3306")
 	)
 	(wire
 		(pts
@@ -2279,7 +2116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 98.7552 67.31 0)
 			(effects
 				(font
@@ -2347,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 74.6252 68.58 0)
 			(effects
 				(font
@@ -2415,7 +2252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.882 54.61 90)
 			(effects
 				(font
@@ -2548,7 +2385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 135.5852 50.8 0)
 			(effects
 				(font
@@ -2681,7 +2518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 145.7452 68.58 0)
 			(effects
 				(font
@@ -2814,7 +2651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 158.242 66.04 90)
 			(effects
 				(font
@@ -2947,7 +2784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.132 66.04 90)
 			(effects
 				(font
@@ -3080,7 +2917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 80.9752 105.41 0)
 			(effects
 				(font
@@ -3333,72 +3170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pspice:INDUCTOR")
-		(at 184.15 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f14d33c")
-		(property "Reference" "L1"
-			(at 184.15 52.959 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INDUCTOR"
-			(at 184.15 55.2704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 184.15 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6ad6c6c-39e6-4292-b228-fdf647f46224")
-		)
-		(pin "2"
-			(uuid "06c1d08b-ac81-4837-a88f-150791189da7")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f13e62e"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 196.85 68.58 0)
 		(unit 1)
@@ -3425,7 +3196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 197.8152 72.39 0)
 			(effects
 				(font
@@ -3558,7 +3329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 209.2452 72.39 0)
 			(effects
 				(font
@@ -3626,7 +3397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 219.4052 72.39 0)
 			(effects
 				(font
@@ -3890,7 +3661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 190.1952 105.41 0)
 			(effects
 				(font
@@ -4089,7 +3860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 101.2952 107.95 0)
 			(effects
 				(font
@@ -4217,72 +3988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pspice:INDUCTOR")
-		(at 67.31 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f96d21a-1ce7-4fad-8b73-0de51f332cb3")
-		(property "Reference" "L2"
-			(at 67.31 89.789 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INDUCTOR"
-			(at 67.31 92.1004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 67.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffc00c54-b52b-4486-a258-bd6374060bdc")
-		)
-		(pin "2"
-			(uuid "f2b33391-3cac-480e-a2bf-e6bb25e85931")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f13e62e"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 137.16 92.71 0)
 		(unit 1)
@@ -4375,7 +4080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 91.1352 105.41 0)
 			(effects
 				(font
@@ -4443,7 +4148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 178.7652 105.41 0)
 			(effects
 				(font
