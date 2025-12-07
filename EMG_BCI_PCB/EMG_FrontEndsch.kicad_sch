@@ -5386,7 +5386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wills_FootprintLibrary:SOT-23-THIN"
 			(at 118.11 54.61 0)
 			(effects
 				(font

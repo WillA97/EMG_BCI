@@ -1291,7 +1291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wills_FootprintLibrary:8-MSOP"
 			(at 149.86 109.22 0)
 			(effects
 				(font
