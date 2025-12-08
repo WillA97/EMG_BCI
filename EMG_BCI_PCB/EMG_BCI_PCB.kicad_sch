@@ -499,16 +499,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 88.9) (xy 78.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a877309-b888-4692-bec3-02c4241444e9")
-	)
-	(wire
-		(pts
 			(xy 119.38 133.35) (xy 72.39 133.35)
 		)
 		(stroke
@@ -536,16 +526,6 @@
 			(type default)
 		)
 		(uuid "273d687e-4e52-4289-a530-0e4715bcac3a")
-	)
-	(wire
-		(pts
-			(xy 48.26 86.36) (xy 78.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a10a7ba-e071-4fe7-85d4-e246ef61ce7d")
 	)
 	(wire
 		(pts
@@ -599,6 +579,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 86.36) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eed3f55-6bb6-4901-84c2-025e0a3d666f")
+	)
+	(wire
+		(pts
 			(xy 72.39 93.98) (xy 48.26 93.98)
 		)
 		(stroke
@@ -606,6 +596,16 @@
 			(type default)
 		)
 		(uuid "3f222e2e-0239-4489-b916-e65420c18a01")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47be2e8f-704a-418c-86dc-737a8696260a")
 	)
 	(wire
 		(pts
@@ -998,7 +998,7 @@
 			)
 		)
 		(pin "Electrode+" input
-			(at 78.74 86.36 180)
+			(at 78.74 88.9 180)
 			(uuid "fb568ef0-964e-42d7-b3b1-765d58804fdd")
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 			)
 		)
 		(pin "Electrode-" input
-			(at 78.74 88.9 180)
+			(at 78.74 86.36 180)
 			(uuid "c43f5f25-fc38-4df2-bdcb-a9c0cf7c9c5f")
 			(effects
 				(font
