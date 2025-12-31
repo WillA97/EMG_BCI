@@ -1513,6 +1513,12 @@
 		(uuid "b5ac4ccb-522a-4a0b-9cc1-f527a66c93e2")
 	)
 	(junction
+		(at 215.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b72a2050-46e0-439b-a413-3ea7848fffd2")
+	)
+	(junction
 		(at 125.73 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1535,12 +1541,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1da8085-ddf8-449d-a473-acb7a79ee87a")
-	)
-	(junction
-		(at 179.07 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb1bf4b1-78a1-478f-a51d-4de6385aff94")
 	)
 	(junction
 		(at 252.73 142.24)
@@ -1620,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 179.07 80.01)
+			(xy 176.53 45.72) (xy 215.9 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1697,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "20a0d011-f0bb-46c3-8a70-0b3b2b9c1d62")
+	)
+	(wire
+		(pts
+			(xy 215.9 57.15) (xy 237.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d242a2-519f-487b-bc48-56819a114b9b")
 	)
 	(wire
 		(pts
@@ -1820,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 80.01) (xy 148.59 80.01)
+			(xy 168.91 45.72) (xy 148.59 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1940,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 148.59 80.01)
+			(xy 148.59 45.72) (xy 148.59 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2260,6 +2270,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 45.72) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea576a9-9441-4024-b841-3d0b8928f57d")
+	)
+	(wire
+		(pts
 			(xy 264.16 138.43) (xy 264.16 142.24)
 		)
 		(stroke
@@ -2370,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 57.15) (xy 237.49 57.15)
+			(xy 210.82 57.15) (xy 215.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2480,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 59.69) (xy 179.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac3cb2f-aaff-4046-af13-451feddf42a9")
-	)
-	(wire
-		(pts
 			(xy 95.25 83.82) (xy 104.14 83.82)
 		)
 		(stroke
@@ -2577,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "f9265d18-26a9-4774-985d-1394d1057f31")
+	)
+	(wire
+		(pts
+			(xy 179.07 59.69) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96da5a1-d00d-4559-8f68-1b564b0100fd")
 	)
 	(wire
 		(pts
@@ -3266,7 +3286,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 80.01 270)
+		(at 172.72 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3274,7 +3294,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0c71de")
 		(property "Reference" "R11"
-			(at 168.91 74.7522 90)
+			(at 172.72 40.4622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3302,7 @@
 			)
 		)
 		(property "Value" "11k"
-			(at 168.91 77.0636 90)
+			(at 172.72 42.7736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3310,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 168.91 78.232 90)
+			(at 172.72 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 80.01 0)
+			(at 172.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 80.01 0)
+			(at 172.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,18 +4582,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0df6024a-dc1a-4951-b419-4d2226ae7ece")
 		(property "Reference" "U1"
-			(at 133.35 48.1898 0)
+			(at 125.984 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INA350"
-			(at 133.35 50.7298 0)
+		(property "Value" "INA350CDS"
+			(at 129.794 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
