@@ -40,4 +40,4 @@ graph TD
  
 ## Communication interface
 
-- The communication interface will be used to transfer the digitized EMG signals to an external device. This just depends on what interface the ADC's end up using. Most likely it will end up being I2C since that seems to be commonly used on ADC IC's
+- The communication interface will be used to transfer the digitized EMG signals to an external device. The ADC chosen (MCP 3202) uses an SPI interface.
