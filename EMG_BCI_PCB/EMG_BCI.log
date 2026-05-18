@@ -1,0 +1,16 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Github\EMG_BCI\EMG_BCI_PCB\EMG_BCI.net
+Start Time: Tue May  5 20:31:52 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 4.561 seconds.
+
+Files loaded:
+C:\Github\EMG_BCI\EMG_BCI_PCB\EMG_BCI.net
+C:\Users\willa\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\willa\AppData\Local\LTspice\lib\sub\ADA4807-4.sub
+
