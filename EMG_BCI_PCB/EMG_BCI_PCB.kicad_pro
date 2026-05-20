@@ -712,7 +712,7 @@
       {
         "filename": "EMG_BCI_PCB.kicad_sch",
         "name": "EMG_BCI_PCB",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
       }
     ],
     "used_designators": "",
@@ -721,7 +721,7 @@
   "sheets": [
     [
       "55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4",
-      "Root"
+      "EMG_BCI_PCB"
     ],
     [
       "00000000-0000-0000-0000-00005f08a48b",

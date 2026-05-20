@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "316cf6de-5011-4229-8577-27baa9cf0ece")
 	(paper "A4")
 	(lib_symbols
@@ -12,8 +12,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "ADA4807-4ARUZ"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,33 +38,41 @@
 			)
 			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
 				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,20 +81,24 @@
 			)
 			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "ADA4807-4ARUZ_1_1"
@@ -96,17 +114,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,17 +150,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -203,7 +221,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,17 +250,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -268,17 +286,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,7 +357,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -406,8 +424,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -416,6 +438,8 @@
 			)
 			(property "Value" "TestPoint"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -424,47 +448,57 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_0_1"
@@ -512,8 +546,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -523,6 +561,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -532,47 +572,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -605,7 +655,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -623,7 +673,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -651,8 +701,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -661,6 +715,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -669,47 +725,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -729,7 +795,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -747,7 +813,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -769,8 +835,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 8.89 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -779,6 +849,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -787,29 +859,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "INA350_0_1"
@@ -827,17 +905,17 @@
 				)
 			)
 			(symbol "INA350_1_1"
-				(pin passive line
-					(at -7.62 3.81 0)
+				(pin input line
+					(at -7.62 -1.27 0)
 					(length 2.54)
-					(name "IN+"
+					(name "GS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -863,53 +941,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -1.27 0)
+				(pin passive line
+					(at -7.62 3.81 0)
 					(length 2.54)
-					(name "GS"
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "~{SD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "Vs+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -956,7 +998,7 @@
 				(pin output line
 					(at 12.7 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -971,11 +1013,47 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vs+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -986,17 +1064,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3.3V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1005,38 +1089,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3.3V_0_1"
@@ -1081,7 +1173,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,7 +1192,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:-3V3"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1111,17 +1203,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "-3V3"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1130,45 +1228,53 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"-3V3\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "-3V3_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1201,7 +1307,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1212,17 +1318,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "Earth"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1231,38 +1343,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"Earth\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global ground gnd"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Earth_0_1"
@@ -1319,7 +1439,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1337,27 +1457,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text_box "DC offset chosen at 0.55. To prevent negative values from inst amp being cutoff"
-		(exclude_from_sim no)
-		(at 31.75 74.93 0)
-		(size 20.32 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 94 255 151 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "644f9740-0a28-4852-af5e-c32bc754ccbd")
 	)
 	(text_box "INA350:\nWhen \"GS\" pin is attach to logic HIGH, the gain is set to 50. HIGH is determined by supply voltage\n"
 		(exclude_from_sim no)
@@ -1441,6 +1540,12 @@
 		(uuid "067365f9-6d29-4c19-8437-13d1fdc61685")
 	)
 	(junction
+		(at 124.46 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102ff26e-d19f-4ced-9da8-9188c69d2881")
+	)
+	(junction
 		(at 96.52 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1495,22 +1600,10 @@
 		(uuid "9a9f18e3-bab3-4d20-8937-50d1d85f87e1")
 	)
 	(junction
-		(at 104.14 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e0976de-6ebf-417b-a95b-bb509a104e24")
-	)
-	(junction
 		(at 201.93 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac1c105f-ec18-4b0c-add4-7cd26dd09beb")
-	)
-	(junction
-		(at 60.96 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5ac4ccb-522a-4a0b-9cc1-f527a66c93e2")
 	)
 	(junction
 		(at 215.9 57.15)
@@ -1555,6 +1648,12 @@
 		(uuid "d2221469-2c75-4560-ba4e-2fd3ee9b2b4c")
 	)
 	(junction
+		(at 118.11 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d69fd1a5-8a3c-4223-97d7-f3925b7dedee")
+	)
+	(junction
 		(at 168.91 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1578,6 +1677,10 @@
 		(color 0 0 0 0)
 		(uuid "f33533f8-c1d5-4aad-bcd2-e51dfad8118b")
 	)
+	(no_connect
+		(at 123.19 62.23)
+		(uuid "206a6307-27ff-4b1d-b5a0-57f9fdd31c02")
+	)
 	(wire
 		(pts
 			(xy 130.81 54.61) (xy 137.16 54.61)
@@ -1597,16 +1700,6 @@
 			(type default)
 		)
 		(uuid "0a1423e4-579e-4ffd-84d3-d8a96b3763e3")
-	)
-	(wire
-		(pts
-			(xy 60.96 81.28) (xy 80.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a18f2b0-c1fc-414d-b7b3-14c6e81ee8a9")
 	)
 	(wire
 		(pts
@@ -1647,16 +1740,6 @@
 			(type default)
 		)
 		(uuid "109da901-1c52-458e-94ec-6474dda21e37")
-	)
-	(wire
-		(pts
-			(xy 76.2 95.25) (xy 76.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a463307-d535-4321-9e3d-ad376ffb77ba")
 	)
 	(wire
 		(pts
@@ -1720,16 +1803,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 62.23) (xy 118.11 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "264315a5-82c5-4425-b82a-ea20d3182109")
-	)
-	(wire
-		(pts
 			(xy 229.87 142.24) (xy 218.44 142.24)
 		)
 		(stroke
@@ -1737,6 +1810,16 @@
 			(type default)
 		)
 		(uuid "27ca7eeb-84e1-4b1d-8a08-a91f4b3bb112")
+	)
+	(wire
+		(pts
+			(xy 135.89 74.93) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2848a345-1fcd-4a8d-9f9a-bf37d43617de")
 	)
 	(wire
 		(pts
@@ -1750,16 +1833,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 104.14 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1c17fa-1e52-4222-aaca-6f0687752508")
-	)
-	(wire
-		(pts
 			(xy 96.52 130.81) (xy 96.52 129.54)
 		)
 		(stroke
@@ -1770,13 +1843,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 76.2 95.25)
+			(xy 135.89 85.09) (xy 135.89 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "382df7c5-9206-46c9-a72d-a511531f28f4")
+		(uuid "37593f48-ca49-4c7c-a60d-4f66ac55fd88")
 	)
 	(wire
 		(pts
@@ -1787,6 +1860,16 @@
 			(type default)
 		)
 		(uuid "3a31757d-167e-4c9e-8e80-7997c15a357f")
+	)
+	(wire
+		(pts
+			(xy 118.11 62.23) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aad394c-2436-4f13-b3ba-28268ffdc4fa")
 	)
 	(wire
 		(pts
@@ -1810,26 +1893,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 77.47) (xy 60.96 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3411cd-385a-4d02-8b71-6e1e5ba6f232")
-	)
-	(wire
-		(pts
-			(xy 123.19 83.82) (xy 123.19 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d088ee8-97ec-4f16-a884-9daf871b331c")
-	)
-	(wire
-		(pts
 			(xy 168.91 45.72) (xy 148.59 45.72)
 		)
 		(stroke
@@ -1847,6 +1910,16 @@
 			(type default)
 		)
 		(uuid "42cb617b-53e4-49bd-a87e-286c7bcfa46e")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443bb138-c363-464a-8a0d-afdee0f78f03")
 	)
 	(wire
 		(pts
@@ -1887,6 +1960,16 @@
 			(type default)
 		)
 		(uuid "559be0fb-2cbf-4138-a919-360902aa3604")
+	)
+	(wire
+		(pts
+			(xy 118.11 71.12) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563e3a1a-5c38-4ee9-834a-07b19b673302")
 	)
 	(wire
 		(pts
@@ -1987,6 +2070,16 @@
 			(type default)
 		)
 		(uuid "692a764c-951d-46f6-a904-41f2a976d073")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce626ac-f9b3-4b47-af34-84f570b197a8")
 	)
 	(wire
 		(pts
@@ -2120,16 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 123.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd4aea7-2969-48f6-8f80-59b08b066709")
-	)
-	(wire
-		(pts
 			(xy 107.95 120.65) (xy 96.52 120.65)
 		)
 		(stroke
@@ -2137,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "906aea42-56ed-4162-85e0-3abe45d2be76")
-	)
-	(wire
-		(pts
-			(xy 60.96 93.98) (xy 60.96 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d4b64d-3052-4024-b055-cdbc4a26de70")
 	)
 	(wire
 		(pts
@@ -2260,6 +2333,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 71.12) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7e9b6f-87c2-4b0f-ac14-6d6f8ebbf495")
+	)
+	(wire
+		(pts
 			(xy 161.29 111.76) (xy 161.29 109.22)
 		)
 		(stroke
@@ -2287,16 +2370,6 @@
 			(type default)
 		)
 		(uuid "b25d8e4d-7af4-4f1f-9678-2ba7551bfe80")
-	)
-	(wire
-		(pts
-			(xy 60.96 81.28) (xy 60.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a9f261-ad89-49ad-9c50-981c6410dfb4")
 	)
 	(wire
 		(pts
@@ -2440,16 +2513,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 86.36) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66abe70-c7e1-4207-bb6c-85136ff6778a")
-	)
-	(wire
-		(pts
 			(xy 215.9 96.52) (xy 124.46 96.52)
 		)
 		(stroke
@@ -2497,16 +2560,6 @@
 			(type default)
 		)
 		(uuid "e9c3315f-8f18-45e0-bcad-566c782e0b61")
-	)
-	(wire
-		(pts
-			(xy 95.25 83.82) (xy 104.14 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8db1cc-9bae-4170-bd6b-a9769775a914")
 	)
 	(wire
 		(pts
@@ -2610,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 74.93) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9398af-65e4-44ba-8ae7-ce1cfd29f0ab")
+	)
+	(wire
+		(pts
 			(xy 60.96 58.42) (xy 110.49 58.42)
 		)
 		(stroke
@@ -2655,13 +2718,17 @@
 		(lib_id "Device:C")
 		(at 140.97 54.61 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcce0")
 		(property "Reference" "C9"
 			(at 140.97 48.2092 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,6 +2737,8 @@
 		)
 		(property "Value" "1u"
 			(at 140.97 50.5206 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,24 +2747,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 55.5752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 140.97 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 140.97 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2784,7 @@
 			(uuid "5a130ced-dcad-4dd1-b307-f0d46c3a9891")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -2725,13 +2800,17 @@
 		(lib_id "Device:C")
 		(at 156.21 54.61 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcce6")
 		(property "Reference" "C10"
 			(at 156.21 48.2092 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,6 +2819,8 @@
 		)
 		(property "Value" "1u"
 			(at 156.21 50.5206 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,24 +2829,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 152.4 55.5752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 156.21 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2866,7 @@
 			(uuid "d9575432-2b3b-4136-be53-3607171f67b0")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -2795,13 +2882,17 @@
 		(lib_id "Device:R")
 		(at 168.91 60.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bccec")
 		(property "Reference" "R10"
 			(at 170.688 59.7916 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,6 +2902,8 @@
 		)
 		(property "Value" "22k"
 			(at 170.688 62.103 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,24 +2913,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.132 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 168.91 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2950,7 @@
 			(uuid "cac2a5e8-5533-41e4-903f-edc49bcb7095")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "R?")
 					(unit 1)
@@ -2867,49 +2966,61 @@
 		(lib_id "power:Earth")
 		(at 168.91 67.31 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bccf8")
 		(property "Reference" "#PWR012"
 			(at 168.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 168.91 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 168.91 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +3031,7 @@
 			(uuid "4e4439d2-4288-4000-8267-9ac4fd90f407")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -2936,13 +3047,17 @@
 		(lib_id "Device:R")
 		(at 255.27 80.01 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcd1e")
 		(property "Reference" "R12"
 			(at 257.048 78.8416 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,6 +3067,8 @@
 		)
 		(property "Value" "10k"
 			(at 257.048 81.153 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,24 +3078,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 253.492 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 255.27 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3115,7 @@
 			(uuid "ab959122-27c6-4222-a676-acb737a2affb")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "R?")
 					(unit 1)
@@ -3008,49 +3131,61 @@
 		(lib_id "power:Earth")
 		(at 255.27 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcd24")
 		(property "Reference" "#PWR015"
 			(at 255.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 255.27 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 255.27 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 255.27 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 255.27 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3196,7 @@
 			(uuid "db433ce0-6b1c-421f-9559-54c5e709693a")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -3077,13 +3212,17 @@
 		(lib_id "Device:C")
 		(at 161.29 115.57 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcd3f")
 		(property "Reference" "C11"
 			(at 164.211 114.4016 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,6 +3232,8 @@
 		)
 		(property "Value" "0.0047u"
 			(at 164.211 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,24 +3243,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.3248 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 161.29 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3280,7 @@
 			(uuid "c69698bd-1a41-4f63-83e1-fad954af1ff5")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -3149,13 +3296,17 @@
 		(lib_id "Device:C")
 		(at 184.15 132.08 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcd45")
 		(property "Reference" "C12"
 			(at 184.15 125.6792 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,6 +3315,8 @@
 		)
 		(property "Value" "0.01u"
 			(at 184.15 127.9906 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,24 +3325,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 187.96 131.1148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 184.15 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3362,7 @@
 			(uuid "21565d0c-355e-4510-8d51-0ff236ab20d3")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -3219,49 +3378,61 @@
 		(lib_id "power:Earth")
 		(at 161.29 120.65 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0bcd51")
 		(property "Reference" "#PWR011"
 			(at 161.29 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 161.29 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 161.29 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 161.29 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3443,7 @@
 			(uuid "786ff8c4-a5db-453c-9b23-3cec76f31e8e")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -3288,13 +3459,17 @@
 		(lib_id "Device:R")
 		(at 172.72 45.72 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0c71de")
 		(property "Reference" "R11"
 			(at 172.72 40.4622 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,6 +3478,8 @@
 		)
 		(property "Value" "11k"
 			(at 172.72 42.7736 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,24 +3488,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 172.72 43.942 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 172.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 172.72 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3525,7 @@
 			(uuid "a4bbf392-3d30-4b8e-9d8b-0c029becbb76")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "R?")
 					(unit 1)
@@ -3358,13 +3541,17 @@
 		(lib_id "Device:R")
 		(at 134.62 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0d5d76")
 		(property "Reference" "R8"
 			(at 134.62 103.9622 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,6 +3560,8 @@
 		)
 		(property "Value" "56k"
 			(at 134.62 106.2736 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,24 +3570,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.62 107.442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 134.62 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3607,7 @@
 			(uuid "03759e8d-6b2f-4727-a5bb-c3d5daefcd1d")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "R?")
 					(unit 1)
@@ -3428,13 +3623,17 @@
 		(lib_id "Device:R")
 		(at 152.4 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0d66ed")
 		(property "Reference" "R9"
 			(at 152.4 103.9622 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,6 +3642,8 @@
 		)
 		(property "Value" "36k"
 			(at 152.4 106.2736 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,24 +3652,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 152.4 107.442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 152.4 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3689,7 @@
 			(uuid "77d7acf5-4e49-463b-8008-94c2ff66d357")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "R?")
 					(unit 1)
@@ -3498,13 +3705,17 @@
 		(lib_id "Device:C")
 		(at 125.73 31.75 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10c46d")
 		(property "Reference" "C6"
 			(at 128.651 30.5816 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,6 +3725,8 @@
 		)
 		(property "Value" "4.7uF"
 			(at 128.651 32.893 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,24 +3736,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.7648 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 125.73 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 125.73 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3773,7 @@
 			(uuid "c4dee625-1f03-473a-8a8c-872505c898cd")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -3570,13 +3789,17 @@
 		(lib_id "Device:C")
 		(at 138.43 31.75 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10f3ab")
 		(property "Reference" "C8"
 			(at 141.351 30.5816 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,6 +3809,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 141.351 32.893 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,24 +3820,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.4648 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 138.43 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3857,7 @@
 			(uuid "c78fda36-b85b-4110-8168-1ba78d63572a")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -3642,49 +3873,61 @@
 		(lib_id "power:Earth")
 		(at 125.73 38.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1123b5")
 		(property "Reference" "#PWR07"
 			(at 125.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 125.73 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 125.73 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3938,7 @@
 			(uuid "83be6db0-6a1b-40b6-b8f1-e3cf9f5c27e6")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -3711,49 +3954,61 @@
 		(lib_id "power:Earth")
 		(at 138.43 38.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f112b21")
 		(property "Reference" "#PWR010"
 			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 138.43 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 138.43 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 138.43 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +4019,7 @@
 			(uuid "d61bf3a7-8616-4035-81d2-619c90ce5049")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -3780,13 +4035,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 215.9 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f13ce9f")
 		(property "Reference" "TP2"
 			(at 217.17 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,6 +4055,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 217.17 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,24 +4066,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 220.98 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 220.98 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 215.9 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,13 +4112,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 198.12 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f13e2d5")
 		(property "Reference" "TP1"
 			(at 199.39 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,6 +4132,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 199.39 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,24 +4143,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 198.12 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,13 +4189,17 @@
 		(lib_id "Device:C")
 		(at 96.52 125.73 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1982a7")
 		(property "Reference" "C13"
 			(at 99.441 124.5616 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,6 +4209,8 @@
 		)
 		(property "Value" "4.7uF"
 			(at 99.441 126.873 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,24 +4220,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 95.5548 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 96.52 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +4257,7 @@
 			(uuid "04b22d8a-64a3-4f19-b897-62191021c200")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -3982,49 +4273,61 @@
 		(lib_id "power:Earth")
 		(at 96.52 130.81 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f199107")
 		(property "Reference" "#PWR013"
 			(at 96.52 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 96.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 96.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 96.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4338,7 @@
 			(uuid "1a15b155-5e3e-4bf6-9eb1-dab40f4b3756")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -4051,13 +4354,17 @@
 		(lib_id "Device:C")
 		(at 107.95 125.73 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f19d987")
 		(property "Reference" "C15"
 			(at 110.871 124.5616 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,6 +4374,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 110.871 126.873 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,24 +4385,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.9848 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 107.95 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4422,7 @@
 			(uuid "2e187e43-3d77-4d35-9498-741ce7d8948a")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -4123,49 +4438,61 @@
 		(lib_id "power:Earth")
 		(at 107.95 130.81 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f19de8a")
 		(property "Reference" "#PWR016"
 			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 107.95 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 107.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 107.95 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4503,7 @@
 			(uuid "755199bb-1e59-4944-a92c-fd4cdb05de20")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -4192,13 +4519,17 @@
 		(lib_id "Device:C")
 		(at 96.52 151.13 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1b085d")
 		(property "Reference" "C14"
 			(at 99.441 149.9616 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,6 +4539,8 @@
 		)
 		(property "Value" "4.7uF"
 			(at 99.441 152.273 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,24 +4550,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 95.5548 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 96.52 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4587,7 @@
 			(uuid "c725a24e-89e5-422f-b2df-71cd6a385520")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -4264,13 +4603,17 @@
 		(lib_id "Device:C")
 		(at 107.95 151.13 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1b0ff8")
 		(property "Reference" "C16"
 			(at 110.871 149.9616 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,6 +4623,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 110.871 152.273 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,24 +4634,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.9848 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 107.95 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4671,7 @@
 			(uuid "7723acdf-89e0-465e-9baa-cba50f247980")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "C?")
 					(unit 1)
@@ -4336,49 +4687,61 @@
 		(lib_id "power:Earth")
 		(at 96.52 156.21 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1b1347")
 		(property "Reference" "#PWR014"
 			(at 96.52 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 96.52 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 96.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 96.52 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4752,7 @@
 			(uuid "92dcde03-4c4a-4ddf-88c8-b180a46d262e")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -4405,49 +4768,61 @@
 		(lib_id "power:Earth")
 		(at 107.95 156.21 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1b16e5")
 		(property "Reference" "#PWR017"
 			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 107.95 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 107.95 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4833,7 @@
 			(uuid "655dc952-3d3d-4ed8-968b-2296f9f7685b")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4"
 					(reference "#PWR?")
 					(unit 1)
@@ -4471,120 +4846,20 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
-		(at 87.63 83.82 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d83b62e-a232-4b98-8721-cebed7ce1f32")
-		(property "Reference" "U2"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4807-4ARUZ"
-			(at 87.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
-			(at 88.9 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
-			(at 87.63 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "9bd4f68d-6194-4e8c-af6d-5279150211cb")
-		)
-		(pin "1"
-			(uuid "88a0606b-5e71-4837-9856-884373d7fb5d")
-		)
-		(pin "13"
-			(uuid "42101cfc-d3c6-4a46-8c0d-1ec7005b144e")
-		)
-		(pin "3"
-			(uuid "56f76fa1-fe81-49a4-a616-5db145dc8b34")
-		)
-		(pin "2"
-			(uuid "a37aedcd-2d19-4737-b158-bf84f47b63e1")
-		)
-		(pin "9"
-			(uuid "8c0b1246-19cb-41f8-b5b3-a29100707e89")
-		)
-		(pin "8"
-			(uuid "d0df1024-63e1-4a75-bfeb-3438b5d3cd7b")
-		)
-		(pin "7"
-			(uuid "dd3e6e33-34e5-41b5-bb27-d8b13df31430")
-		)
-		(pin "6"
-			(uuid "6a1549d3-0e1b-4854-bff8-4c4fc749fc4b")
-		)
-		(pin "10"
-			(uuid "9079ff1e-c7b4-410c-8ca5-9527ee46e22d")
-		)
-		(pin "12"
-			(uuid "3dfd6dae-4c8f-4d30-8349-44127f2a8dcc")
-		)
-		(pin "4"
-			(uuid "46c444cd-e1b0-421f-9ada-ffa2f3aa6050")
-		)
-		(pin "11"
-			(uuid "8dd60588-d786-445e-9c0a-c2572f9201ba")
-		)
-		(pin "14"
-			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4208")
-		)
-		(instances
-			(project ""
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "WillsLibrary:INA350")
 		(at 118.11 54.61 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0df6024a-dc1a-4951-b419-4d2226ae7ece")
 		(property "Reference" "U1"
 			(at 125.984 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,6 +4868,8 @@
 		)
 		(property "Value" "INA350CDS"
 			(at 129.794 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,29 +4878,35 @@
 		)
 		(property "Footprint" "Wills_FootprintLibrary:SOT-23-THIN"
 			(at 118.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 118.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 118.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4651,7 +4934,7 @@
 			(uuid "7b3e8d3a-8212-459e-83a9-086333e2cb6e")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "U1")
 					(unit 1)
@@ -4663,13 +4946,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 218.44 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "165c8d4e-8b25-4bf0-b775-0ae72397b2fe")
 		(property "Reference" "TP11"
 			(at 219.71 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,6 +4966,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 219.71 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,24 +4977,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 223.52 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 223.52 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 218.44 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,23 +5023,29 @@
 		(lib_id "power:+3.3V")
 		(at 60.96 49.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd7b778-08cb-4022-b55b-6c55e98037b4")
 		(property "Reference" "#PWR01"
 			(at 60.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 60.96 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,36 +5054,42 @@
 		)
 		(property "Footprint" ""
 			(at 60.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 60.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 60.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "21980b2d-db4d-4bb6-8f2d-c4eb05339f82")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "#PWR01")
 					(unit 1)
@@ -4794,13 +5101,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 252.73 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "299bbea5-f8bb-4d7b-a0b7-9b67c91e2222")
 		(property "Reference" "TP8"
 			(at 254 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,6 +5121,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 254 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,24 +5132,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 257.81 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 257.81 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 252.73 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,16 +5175,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 138.43 0)
+		(lib_id "Device:C")
+		(at 135.89 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e79a6b3-781d-466c-88ae-d1c832823ccc")
+		(property "Reference" "C31"
+			(at 138.811 77.5716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 138.811 79.883 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 136.8552 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd6e4063-59f6-4d50-952e-c8923f8351dd")
+		)
+		(pin "1"
+			(uuid "bea0e1d0-7908-45a8-8535-ee985e32afac")
+		)
+		(instances
+			(project "EMG_BCI_PCB"
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "39ee57a2-2f42-40d5-8632-c0a2f8fcfda9")
 		(property "Reference" "TP9"
 			(at 242.57 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,6 +5278,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 242.57 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,24 +5289,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 246.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 246.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 241.3 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,14 +5335,18 @@
 		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
 		(at 82.55 137.16 0)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4176a58e-855a-4ef8-932a-075f32e0ce75")
 		(property "Reference" "U2"
 			(at 81.28 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,6 +5356,8 @@
 		)
 		(property "Value" "ADA4807-4ARUZ"
 			(at 81.28 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,29 +5367,35 @@
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
 			(at 83.82 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
 			(at 82.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -5018,7 +5441,7 @@
 			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb4209")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "U2")
 					(unit 5)
@@ -5030,23 +5453,29 @@
 		(lib_id "power:+3.3V")
 		(at 118.11 21.59 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47bac3c4-1d0d-48aa-9277-1fa5bd4ad2d5")
 		(property "Reference" "#PWR032"
 			(at 118.11 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 118.11 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,29 +5484,35 @@
 		)
 		(property "Footprint" ""
 			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5096,14 +5531,18 @@
 		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
 		(at 191.77 57.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50e3f6a8-9c1f-4050-aaef-2e52cf1d5806")
 		(property "Reference" "U2"
 			(at 191.77 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,6 +5551,8 @@
 		)
 		(property "Value" "ADA4807-4ARUZ"
 			(at 191.77 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,29 +5561,35 @@
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 190.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
 			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
 			(at 191.77 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -5188,7 +5635,7 @@
 			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb420a")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "U2")
 					(unit 1)
@@ -5200,14 +5647,18 @@
 		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
 		(at 245.11 59.69 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51fe854a-cc16-43fe-b22f-16d72f026cad")
 		(property "Reference" "U2"
 			(at 245.11 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,6 +5667,8 @@
 		)
 		(property "Value" "ADA4807-4ARUZ"
 			(at 245.11 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,29 +5677,35 @@
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 243.84 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
 			(at 246.38 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
 			(at 245.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -5292,7 +5751,7 @@
 			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb420b")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "U2")
 					(unit 2)
@@ -5301,82 +5760,21 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 60.96 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52139a2d-cf5a-431e-81e0-2dd3d35aa1c1")
-		(property "Reference" "#PWR047"
-			(at 60.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 60.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "660eaba2-5dec-4e3a-85a0-b7ce84d70c63")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:ADA4807-4ARUZ")
 		(at 186.69 111.76 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a3d78af-7e41-4048-ac09-42b59789582f")
 		(property "Reference" "U2"
 			(at 186.69 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,6 +5783,8 @@
 		)
 		(property "Value" "ADA4807-4ARUZ"
 			(at 186.69 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,29 +5793,35 @@
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 185.42 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
 			(at 187.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14"
 			(at 186.69 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -5461,7 +5867,7 @@
 			(uuid "dca77c8d-7d20-44a7-9b27-c4611beb420c")
 		)
 		(instances
-			(project ""
+			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "U2")
 					(unit 4)
@@ -5473,13 +5879,17 @@
 		(lib_id "Device:R")
 		(at 255.27 69.85 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a6e8ecc-595d-4ce6-aef1-e9e72f99e15b")
 		(property "Reference" "R1"
 			(at 253.492 71.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,6 +5899,8 @@
 		)
 		(property "Value" "190k"
 			(at 253.492 68.707 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,24 +5910,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 257.048 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 255.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 255.27 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,13 +5959,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 229.87 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "72153f11-08a2-48cb-92a5-36b784e569af")
 		(property "Reference" "TP10"
 			(at 231.14 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,6 +5979,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 231.14 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,24 +5990,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 234.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 234.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 229.87 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,23 +6036,29 @@
 		(lib_id "power:-3V3")
 		(at 80.01 157.48 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b8c503-5ebf-46ed-9efb-27e740a07b26")
 		(property "Reference" "#PWR040"
 			(at 80.01 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "-3V3"
 			(at 80.01 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,29 +6067,35 @@
 		)
 		(property "Footprint" ""
 			(at 80.01 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 80.01 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-3V3\""
 			(at 80.01 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5670,51 +6112,140 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 229.87 147.32 0)
+		(at 124.46 85.09 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e140795-988a-4e66-896b-047010ea72d2")
+		(property "Reference" "#PWR049"
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "668083c7-cd79-4fb4-b2a3-1c755d63da77")
+		)
+		(instances
+			(project "EMG_BCI_PCB"
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 229.87 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "914dd070-4b65-4d12-9b23-3fb078f6b593")
 		(property "Reference" "#PWR048"
 			(at 229.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Earth"
 			(at 229.87 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 229.87 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 229.87 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,68 +6265,235 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.96 90.17 0)
+		(lib_id "power:-3V3")
+		(at 118.11 82.55 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "9b6b76ad-0cfd-42a7-a259-4b1d76ca57b1")
-		(property "Reference" "R3"
-			(at 62.738 89.0016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 62.738 91.313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 59.182 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "a8ca6d2b-2d0d-4359-bb0a-67addc3ba92d")
+		(property "Reference" "#PWR047"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c7a67a3a-3f40-4fa5-ba5e-cc11d58ea800")
+		(property "Value" "-3V3"
+			(at 118.11 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-3V3\""
+			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "3d67106a-018e-496f-b2ec-a3588a412c71")
+			(uuid "05c5350a-50df-4fe3-94e9-d6785c250da1")
 		)
 		(instances
 			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "R3")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 135.89 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9f6f577-5516-4d54-ba06-f7743237c1c7")
+		(property "Reference" "#PWR050"
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 135.89 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "019a775c-b58f-471e-9521-0777c95cd37e")
+		)
+		(instances
+			(project "EMG_BCI_PCB"
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abf2d1cf-abe6-4fe1-aac6-1c14c19191e1")
+		(property "Reference" "C28"
+			(at 127.381 77.5716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 127.381 79.883 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 125.4252 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8acfbffa-934d-42e3-8246-cfa349a3a7b5")
+		)
+		(pin "2"
+			(uuid "26025766-812d-462d-9801-3c921b2a20b6")
+		)
+		(instances
+			(project "EMG_BCI_PCB"
+				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5805,23 +6503,29 @@
 		(lib_id "power:+3.3V")
 		(at 80.01 116.84 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac074e7b-22e4-4851-8322-e8f5ffe98a63")
 		(property "Reference" "#PWR036"
 			(at 80.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 80.01 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,29 +6534,35 @@
 		)
 		(property "Footprint" ""
 			(at 80.01 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 80.01 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 80.01 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5871,13 +6581,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 148.59 43.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0f18a5b-9987-4f06-b77f-ed904660fb9c")
 		(property "Reference" "TP5"
 			(at 149.86 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,6 +6601,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 149.86 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,24 +6612,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 153.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 148.59 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,84 +6655,20 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.96 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca8cb496-2fcd-4e64-a0d3-7d5d61ba7eb1")
-		(property "Reference" "R2"
-			(at 62.738 72.4916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 62.738 74.803 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 59.182 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "78b33596-6f13-48fb-abb9-7f37b0736f57")
-		)
-		(pin "1"
-			(uuid "41a592fe-b9dd-4212-a6cb-c2b6f4212551")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 264.16 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbbe3140-38f4-471f-a94f-4c72ceb53f48")
 		(property "Reference" "TP7"
 			(at 265.43 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,6 +6678,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 265.43 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,24 +6689,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 269.24 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 269.24 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 264.16 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,71 +6726,6 @@
 			(project "EMG_BCI_PCB"
 				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 118.11 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdeb3082-cc16-403d-b303-d04ff6f51133")
-		(property "Reference" "#PWR06"
-			(at 118.11 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 118.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de2386a8-894f-40f8-abbd-5d0761d9216b")
-		)
-		(instances
-			(project "EMG_BCI_PCB"
-				(path "/55cf2478-b5ba-45ce-afa6-3f75a1bb5fb4/00000000-0000-0000-0000-00005f08a48b"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
